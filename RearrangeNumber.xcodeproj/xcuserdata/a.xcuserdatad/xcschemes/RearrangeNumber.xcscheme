@@ -28,6 +28,16 @@
       shouldUseLaunchSchemeArgsEnv = "YES"
       buildConfiguration = "Debug">
       <Testables>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "10B7883A17B951EE006FAE66"
+               BuildableName = "RearrangeNumber Tests.xctest"
+               BlueprintName = "RearrangeNumber Tests"
+               ReferencedContainer = "container:RearrangeNumber.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference

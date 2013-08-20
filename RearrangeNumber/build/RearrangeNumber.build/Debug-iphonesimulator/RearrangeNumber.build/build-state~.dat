@@ -1,1715 +1,0 @@
-TRearrangeNumber
-v5
-r1
-cCheck dependencies
-cProcessInfoPlistFile /Users/QA/source/sch-qa-core/automation/tools/R180NG-Mobile/setup/RearrangeNumber/build/Debug-iphonesimulator/RearrangeNumber.app/Info.plist RearrangeNumber/RearrangeNumber-Info.plist
-cProcessPCH /var/folders/cp/v3lbpv3555z45xq56nkzz8lc0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/RearrangeNumber-Prefix-fzjcsiocqsfqlvfperlecjwdqlvo/RearrangeNumber-Prefix.pch.pth RearrangeNumber/RearrangeNumber-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/RearrangeNumber.build/Debug-iphonesimulator/RearrangeNumber.build/Objects-normal/i386/main.o /Users/QA/source/sch-qa-core/automation/tools/R180NG-Mobile/setup/RearrangeNumber/RearrangeNumber/main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/RearrangeNumber.build/Debug-iphonesimulator/RearrangeNumber.build/Objects-normal/i386/RearrangeNumberViewController.o /Users/QA/source/sch-qa-core/automation/tools/R180NG-Mobile/setup/RearrangeNumber/RearrangeNumber/RearrangeNumberViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/RearrangeNumber.build/Debug-iphonesimulator/RearrangeNumber.build/Objects-normal/i386/RearrangeNumberAppDelegate.o /Users/QA/source/sch-qa-core/automation/tools/R180NG-Mobile/setup/RearrangeNumber/RearrangeNumber/RearrangeNumberAppDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/RearrangeNumber.build/Debug-iphonesimulator/RearrangeNumber.build/Objects-normal/i386/RearrangeNumberBrain.o /Users/QA/source/sch-qa-core/automation/tools/R180NG-Mobile/setup/RearrangeNumber/RearrangeNumber/RearrangeNumberBrain.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cLd /Users/QA/source/sch-qa-core/automation/tools/R180NG-Mobile/setup/RearrangeNumber/build/Debug-iphonesimulator/RearrangeNumber.app/RearrangeNumber normal i386
-cGenerateDSYMFile /Users/QA/source/sch-qa-core/automation/tools/R180NG-Mobile/setup/RearrangeNumber/build/Debug-iphonesimulator/RearrangeNumber.app.dSYM /Users/QA/source/sch-qa-core/automation/tools/R180NG-Mobile/setup/RearrangeNumber/build/Debug-iphonesimulator/RearrangeNumber.app/RearrangeNumber
-cCopyStringsFile /Users/QA/source/sch-qa-core/automation/tools/R180NG-Mobile/setup/RearrangeNumber/build/Debug-iphonesimulator/RearrangeNumber.app/en.lproj/InfoPlist.strings RearrangeNumber/en.lproj/InfoPlist.strings
-cCpResource RearrangeNumber/Default@2x.png build/Debug-iphonesimulator/RearrangeNumber.app/Default@2x.png
-cCpResource RearrangeNumber/Default.png build/Debug-iphonesimulator/RearrangeNumber.app/Default.png
-cCpResource RearrangeNumber/Default-568h@2x.png build/Debug-iphonesimulator/RearrangeNumber.app/Default-568h@2x.png
-cCompileStoryboard /Users/QA/source/sch-qa-core/automation/tools/R180NG-Mobile/setup/RearrangeNumber/RearrangeNumber/en.lproj/MainStoryboard.storyboard
-cCpResource RearrangeNumber/assets/animation/frame-1.png build/Debug-iphonesimulator/RearrangeNumber.app/frame-1.png
-cCpResource RearrangeNumber/assets/animation/frame-10.png build/Debug-iphonesimulator/RearrangeNumber.app/frame-10.png
-cCpResource RearrangeNumber/assets/animation/frame-11.png build/Debug-iphonesimulator/RearrangeNumber.app/frame-11.png
-cCpResource RearrangeNumber/assets/animation/frame-12.png build/Debug-iphonesimulator/RearrangeNumber.app/frame-12.png
-cCpResource RearrangeNumber/assets/animation/frame-13.png build/Debug-iphonesimulator/RearrangeNumber.app/frame-13.png
-cCpResource RearrangeNumber/assets/animation/frame-14.png build/Debug-iphonesimulator/RearrangeNumber.app/frame-14.png
-cCpResource RearrangeNumber/assets/animation/frame-15.png build/Debug-iphonesimulator/RearrangeNumber.app/frame-15.png
-cCpResource RearrangeNumber/assets/animation/frame-16.png build/Debug-iphonesimulator/RearrangeNumber.app/frame-16.png
-cCpResource RearrangeNumber/assets/animation/frame-17.png build/Debug-iphonesimulator/RearrangeNumber.app/frame-17.png
-cCpResource RearrangeNumber/assets/animation/frame-18.png build/Debug-iphonesimulator/RearrangeNumber.app/frame-18.png
-cCpResource RearrangeNumber/assets/animation/frame-2.png build/Debug-iphonesimulator/RearrangeNumber.app/frame-2.png
-cCpResource RearrangeNumber/assets/animation/frame-19.png build/Debug-iphonesimulator/RearrangeNumber.app/frame-19.png
-cCpResource RearrangeNumber/assets/animation/frame-20.png build/Debug-iphonesimulator/RearrangeNumber.app/frame-20.png
-cCpResource RearrangeNumber/assets/animation/frame-3.png build/Debug-iphonesimulator/RearrangeNumber.app/frame-3.png
-cCpResource RearrangeNumber/assets/animation/frame-4.png build/Debug-iphonesimulator/RearrangeNumber.app/frame-4.png
-cCpResource RearrangeNumber/assets/animation/frame-6.png build/Debug-iphonesimulator/RearrangeNumber.app/frame-6.png
-cCpResource RearrangeNumber/assets/animation/frame-5.png build/Debug-iphonesimulator/RearrangeNumber.app/frame-5.png
-cCpResource RearrangeNumber/assets/animation/frame-7.png build/Debug-iphonesimulator/RearrangeNumber.app/frame-7.png
-cCpResource RearrangeNumber/assets/animation/frame-8.png build/Debug-iphonesimulator/RearrangeNumber.app/frame-8.png
-cCpResource RearrangeNumber/assets/animation/frame-9.png build/Debug-iphonesimulator/RearrangeNumber.app/frame-9.png
-cCpResource RearrangeNumber/assets/bee.png build/Debug-iphonesimulator/RearrangeNumber.app/bee.png
-cCpResource RearrangeNumber/assets/bubble.png build/Debug-iphonesimulator/RearrangeNumber.app/bubble.png
-cCpResource RearrangeNumber/assets/cow.png build/Debug-iphonesimulator/RearrangeNumber.app/cow.png
-cCpResource RearrangeNumber/assets/default.png build/Debug-iphonesimulator/RearrangeNumber.app/default.png
-cCpResource RearrangeNumber/assets/horsey.png build/Debug-iphonesimulator/RearrangeNumber.app/horsey.png
-cCpResource RearrangeNumber/assets/icon.png build/Debug-iphonesimulator/RearrangeNumber.app/icon.png
-cCpResource RearrangeNumber/assets/landscape.png build/Debug-iphonesimulator/RearrangeNumber.app/landscape.png
-cCpResource RearrangeNumber/assets/sounds/bee.wav build/Debug-iphonesimulator/RearrangeNumber.app/bee.wav
-cCpResource RearrangeNumber/assets/sounds/cow.wav build/Debug-iphonesimulator/RearrangeNumber.app/cow.wav
-cCpResource RearrangeNumber/assets/sounds/horsey.wav build/Debug-iphonesimulator/RearrangeNumber.app/horsey.wav
-cCpResource RearrangeNumber/assets/sounds/sun.wav build/Debug-iphonesimulator/RearrangeNumber.app/sun.wav
-cCpResource RearrangeNumber/assets/sun.png build/Debug-iphonesimulator/RearrangeNumber.app/sun.png
-cCpResource RearrangeNumber/assets/video.png build/Debug-iphonesimulator/RearrangeNumber.app/video.png
-cCpResource "RearrangeNumber/assets 2/ele1.jpg" build/Debug-iphonesimulator/RearrangeNumber.app/ele1.jpg
-cCpResource "RearrangeNumber/assets 2/dog1.jpg" build/Debug-iphonesimulator/RearrangeNumber.app/dog1.jpg
-cCpResource "RearrangeNumber/assets 2/dog2.jpg" build/Debug-iphonesimulator/RearrangeNumber.app/dog2.jpg
-cCpResource "RearrangeNumber/assets 2/images (12).jpg" "build/Debug-iphonesimulator/RearrangeNumber.app/images (12).jpg"
-cCpResource "RearrangeNumber/assets 2/cat1.jpg" build/Debug-iphonesimulator/RearrangeNumber.app/cat1.jpg
-cCpResource "RearrangeNumber/assets 2/cat2.jpg" build/Debug-iphonesimulator/RearrangeNumber.app/cat2.jpg
-cCpResource "RearrangeNumber/assets 2/images (15).jpg" "build/Debug-iphonesimulator/RearrangeNumber.app/images (15).jpg"
-cCpResource "RearrangeNumber/assets 2/images (16).jpg" "build/Debug-iphonesimulator/RearrangeNumber.app/images (16).jpg"
-cCpResource "RearrangeNumber/assets 2/images (17).jpg" "build/Debug-iphonesimulator/RearrangeNumber.app/images (17).jpg"
-cCpResource "RearrangeNumber/assets 2/images (18).jpg" "build/Debug-iphonesimulator/RearrangeNumber.app/images (18).jpg"
-cCpResource "RearrangeNumber/assets 2/images (19).jpg" "build/Debug-iphonesimulator/RearrangeNumber.app/images (19).jpg"
-cCpResource "RearrangeNumber/assets 2/images (2).jpg" "build/Debug-iphonesimulator/RearrangeNumber.app/images (2).jpg"
-cCpResource "RearrangeNumber/assets 2/images (20).jpg" "build/Debug-iphonesimulator/RearrangeNumber.app/images (20).jpg"
-cCpResource "RearrangeNumber/assets 2/images (21).jpg" "build/Debug-iphonesimulator/RearrangeNumber.app/images (21).jpg"
-cCpResource "RearrangeNumber/assets 2/images (3).jpg" "build/Debug-iphonesimulator/RearrangeNumber.app/images (3).jpg"
-cCpResource "RearrangeNumber/assets 2/images (22).jpg" "build/Debug-iphonesimulator/RearrangeNumber.app/images (22).jpg"
-cCpResource "RearrangeNumber/assets 2/images (4).jpg" "build/Debug-iphonesimulator/RearrangeNumber.app/images (4).jpg"
-cCpResource "RearrangeNumber/assets 2/images (5).jpg" "build/Debug-iphonesimulator/RearrangeNumber.app/images (5).jpg"
-cCpResource "RearrangeNumber/assets 2/images (7).jpg" "build/Debug-iphonesimulator/RearrangeNumber.app/images (7).jpg"
-cCpResource "RearrangeNumber/assets 2/images (6).jpg" "build/Debug-iphonesimulator/RearrangeNumber.app/images (6).jpg"
-cCpResource "RearrangeNumber/assets 2/images (9).jpg" "build/Debug-iphonesimulator/RearrangeNumber.app/images (9).jpg"
-cCpResource "RearrangeNumber/assets 2/images (8).png" "build/Debug-iphonesimulator/RearrangeNumber.app/images (8).png"
-cCpResource "RearrangeNumber/assets 2/images.jpg" build/Debug-iphonesimulator/RearrangeNumber.app/images.jpg
-cCpResource "RearrangeNumber/assets 2/s44jr_word_eight.mp3" build/Debug-iphonesimulator/RearrangeNumber.app/s44jr_word_eight.mp3
-cCpResource "RearrangeNumber/assets 2/s44jr_word_four.mp3" build/Debug-iphonesimulator/RearrangeNumber.app/s44jr_word_four.mp3
-cCpResource "RearrangeNumber/assets 2/s44jr_word_five.mp3" build/Debug-iphonesimulator/RearrangeNumber.app/s44jr_word_five.mp3
-cCpResource "RearrangeNumber/assets 2/s44jr_word_nine.mp3" build/Debug-iphonesimulator/RearrangeNumber.app/s44jr_word_nine.mp3
-cCpResource "RearrangeNumber/assets 2/s44jr_word_nineteen.mp3" build/Debug-iphonesimulator/RearrangeNumber.app/s44jr_word_nineteen.mp3
-cCpResource "RearrangeNumber/assets 2/s44jr_word_ninety.mp3" build/Debug-iphonesimulator/RearrangeNumber.app/s44jr_word_ninety.mp3
-cCpResource "RearrangeNumber/assets 2/s44jr_word_seven.mp3" build/Debug-iphonesimulator/RearrangeNumber.app/s44jr_word_seven.mp3
-cCpResource "RearrangeNumber/assets 2/s44jr_word_one.mp3" build/Debug-iphonesimulator/RearrangeNumber.app/s44jr_word_one.mp3
-cCpResource "RearrangeNumber/assets 2/s44jr_word_six.mp3" build/Debug-iphonesimulator/RearrangeNumber.app/s44jr_word_six.mp3
-cCpResource "RearrangeNumber/assets 2/s44jr_word_sixteen.mp3" build/Debug-iphonesimulator/RearrangeNumber.app/s44jr_word_sixteen.mp3
-cCpResource "RearrangeNumber/assets 2/s44jr_word_sixty.mp3" build/Debug-iphonesimulator/RearrangeNumber.app/s44jr_word_sixty.mp3
-cCpResource "RearrangeNumber/assets 2/s44jr_word_ten.mp3" build/Debug-iphonesimulator/RearrangeNumber.app/s44jr_word_ten.mp3
-cCpResource "RearrangeNumber/assets 2/s44jr_word_thirteen.mp3" build/Debug-iphonesimulator/RearrangeNumber.app/s44jr_word_thirteen.mp3
-cCpResource "RearrangeNumber/assets 2/s44jr_word_thirty.mp3" build/Debug-iphonesimulator/RearrangeNumber.app/s44jr_word_thirty.mp3
-cCpResource "RearrangeNumber/assets 2/s44jr_word_three.mp3" build/Debug-iphonesimulator/RearrangeNumber.app/s44jr_word_three.mp3
-cCpResource "RearrangeNumber/assets 2/s44jr_word_two.mp3" build/Debug-iphonesimulator/RearrangeNumber.app/s44jr_word_two.mp3
-cTouch /Users/QA/source/sch-qa-core/automation/tools/R180NG-Mobile/setup/RearrangeNumber/build/Debug-iphonesimulator/RearrangeNumber.app
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk
-c0000000050EDEAFB0000000000000110
-t1357769467
-s272
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk/System/Library/Frameworks/AudioToolbox.framework/AudioToolbox
-c0000000051B4C2A600000000003D4DF0
-t1370800806
-s4017648
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
-c0000000051B4C2AF0000000000228FE0
-t1370800815
-s2265056
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk/System/Library/Frameworks/Foundation.framework/Foundation
-c0000000051B4C2BE00000000003DDFA0
-t1370800830
-s4054944
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
-c0000000051B4C2BE00000000000015F7
-t1370800830
-s5623
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
-c0000000051B4C2F90000000000000E8D
-t1370800889
-s3725
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk/System/Library/Frameworks/UIKit.framework/UIKit
-c0000000051B4C2FD0000000000AB6230
-t1370800893
-s11231792
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk/usr/include/Availability.h
-c0000000051B4C3A70000000000001B73
-t1370801063
-s7027
-
-N/Users/QA/source/sch-qa-core/automation/tools/R180NG-Mobile/setup/RearrangeNumber/RearrangeNumber/Default-568h@2x.png
-c00000000506278D600000000000048A2
-t1348630742
-s18594
-
-N/Users/QA/source/sch-qa-core/automation/tools/R180NG-Mobile/setup/RearrangeNumber/RearrangeNumber/Default.png
-c00000000506278D6000000000000198C
-t1348630742
-s6540
-
-N/Users/QA/source/sch-qa-core/automation/tools/R180NG-Mobile/setup/RearrangeNumber/RearrangeNumber/Default@2x.png
-c00000000506278D60000000000003EEB
-t1348630742
-s16107
-
-N/Users/QA/source/sch-qa-core/automation/tools/R180NG-Mobile/setup/RearrangeNumber/RearrangeNumber/RearrangeNumber-Prefix.pch
-c00000000507DC3F2000000000000014D
-t1350419442
-s333
-i<Availability.h>
-i<UIKit/UIKit.h>
-i<Foundation/Foundation.h>
-
-N/Users/QA/source/sch-qa-core/automation/tools/R180NG-Mobile/setup/RearrangeNumber/RearrangeNumber/RearrangeNumberAppDelegate.m
-c00000000507DC3F200000000000007FB
-t1350419442
-s2043
-
-N/Users/QA/source/sch-qa-core/automation/tools/R180NG-Mobile/setup/RearrangeNumber/RearrangeNumber/RearrangeNumberBrain.m
-c000000005089DCBC0000000000000541
-t1351212220
-s1345
-
-N/Users/QA/source/sch-qa-core/automation/tools/R180NG-Mobile/setup/RearrangeNumber/RearrangeNumber/RearrangeNumberViewController.m
-c000000005089E05A0000000000002C1F
-t1351213146
-s11295
-
-N/Users/QA/source/sch-qa-core/automation/tools/R180NG-Mobile/setup/RearrangeNumber/RearrangeNumber/assets 2/cat1.jpg
-c00000000508099E40000000000002A92
-t1350605284
-s10898
-
-N/Users/QA/source/sch-qa-core/automation/tools/R180NG-Mobile/setup/RearrangeNumber/RearrangeNumber/assets 2/cat2.jpg
-c00000000508099F00000000000002F3F
-t1350605296
-s12095
-
-N/Users/QA/source/sch-qa-core/automation/tools/R180NG-Mobile/setup/RearrangeNumber/RearrangeNumber/assets 2/dog1.jpg
-c00000000508099BE00000000000014BE
-t1350605246
-s5310
-
-N/Users/QA/source/sch-qa-core/automation/tools/R180NG-Mobile/setup/RearrangeNumber/RearrangeNumber/assets 2/dog2.jpg
-c00000000508099C20000000000002670
-t1350605250
-s9840
-
-N/Users/QA/source/sch-qa-core/automation/tools/R180NG-Mobile/setup/RearrangeNumber/RearrangeNumber/assets 2/ele1.jpg
-c00000000508098FE000000000000218E
-t1350605054
-s8590
-
-N/Users/QA/source/sch-qa-core/automation/tools/R180NG-Mobile/setup/RearrangeNumber/RearrangeNumber/assets 2/images (12).jpg
-c00000000508099D20000000000001BA8
-t1350605266
-s7080
-
-N/Users/QA/source/sch-qa-core/automation/tools/R180NG-Mobile/setup/RearrangeNumber/RearrangeNumber/assets 2/images (15).jpg
-c00000000508099F800000000000019E7
-t1350605304
-s6631
-
-N/Users/QA/source/sch-qa-core/automation/tools/R180NG-Mobile/setup/RearrangeNumber/RearrangeNumber/assets 2/images (16).jpg
-c0000000050809A02000000000000229D
-t1350605314
-s8861
-
-N/Users/QA/source/sch-qa-core/automation/tools/R180NG-Mobile/setup/RearrangeNumber/RearrangeNumber/assets 2/images (17).jpg
-c0000000050809A1400000000000017C0
-t1350605332
-s6080
-
-N/Users/QA/source/sch-qa-core/automation/tools/R180NG-Mobile/setup/RearrangeNumber/RearrangeNumber/assets 2/images (18).jpg
-c0000000050809A1A0000000000000DE7
-t1350605338
-s3559
-
-N/Users/QA/source/sch-qa-core/automation/tools/R180NG-Mobile/setup/RearrangeNumber/RearrangeNumber/assets 2/images (19).jpg
-c0000000050809A380000000000001F6D
-t1350605368
-s8045
-
-N/Users/QA/source/sch-qa-core/automation/tools/R180NG-Mobile/setup/RearrangeNumber/RearrangeNumber/assets 2/images (2).jpg
-c000000005080990E000000000000220C
-t1350605070
-s8716
-
-N/Users/QA/source/sch-qa-core/automation/tools/R180NG-Mobile/setup/RearrangeNumber/RearrangeNumber/assets 2/images (20).jpg
-c0000000050809A5400000000000010B7
-t1350605396
-s4279
-
-N/Users/QA/source/sch-qa-core/automation/tools/R180NG-Mobile/setup/RearrangeNumber/RearrangeNumber/assets 2/images (21).jpg
-c0000000050809A5A0000000000001794
-t1350605402
-s6036
-
-N/Users/QA/source/sch-qa-core/automation/tools/R180NG-Mobile/setup/RearrangeNumber/RearrangeNumber/assets 2/images (22).jpg
-c0000000050809A62000000000000240A
-t1350605410
-s9226
-
-N/Users/QA/source/sch-qa-core/automation/tools/R180NG-Mobile/setup/RearrangeNumber/RearrangeNumber/assets 2/images (3).jpg
-c000000005080991E0000000000002318
-t1350605086
-s8984
-
-N/Users/QA/source/sch-qa-core/automation/tools/R180NG-Mobile/setup/RearrangeNumber/RearrangeNumber/assets 2/images (4).jpg
-c00000000508099400000000000001F07
-t1350605120
-s7943
-
-N/Users/QA/source/sch-qa-core/automation/tools/R180NG-Mobile/setup/RearrangeNumber/RearrangeNumber/assets 2/images (5).jpg
-c000000005080995200000000000027DD
-t1350605138
-s10205
-
-N/Users/QA/source/sch-qa-core/automation/tools/R180NG-Mobile/setup/RearrangeNumber/RearrangeNumber/assets 2/images (6).jpg
-c0000000050809968000000000000245C
-t1350605160
-s9308
-
-N/Users/QA/source/sch-qa-core/automation/tools/R180NG-Mobile/setup/RearrangeNumber/RearrangeNumber/assets 2/images (7).jpg
-c000000005080997A000000000000279D
-t1350605178
-s10141
-
-N/Users/QA/source/sch-qa-core/automation/tools/R180NG-Mobile/setup/RearrangeNumber/RearrangeNumber/assets 2/images (8).png
-c00000000508099900000000000002B7B
-t1350605200
-s11131
-
-N/Users/QA/source/sch-qa-core/automation/tools/R180NG-Mobile/setup/RearrangeNumber/RearrangeNumber/assets 2/images (9).jpg
-c0000000050809998000000000000265E
-t1350605208
-s9822
-
-N/Users/QA/source/sch-qa-core/automation/tools/R180NG-Mobile/setup/RearrangeNumber/RearrangeNumber/assets 2/images.jpg
-c00000000508098EE0000000000001859
-t1350605038
-s6233
-
-N/Users/QA/source/sch-qa-core/automation/tools/R180NG-Mobile/setup/RearrangeNumber/RearrangeNumber/assets 2/s44jr_word_eight.mp3
-c000000004FE5F4160000000000002AF2
-t1340470294
-s10994
-
-N/Users/QA/source/sch-qa-core/automation/tools/R180NG-Mobile/setup/RearrangeNumber/RearrangeNumber/assets 2/s44jr_word_five.mp3
-c000000004FE5F41800000000000034BD
-t1340470296
-s13501
-
-N/Users/QA/source/sch-qa-core/automation/tools/R180NG-Mobile/setup/RearrangeNumber/RearrangeNumber/assets 2/s44jr_word_four.mp3
-c000000004FE5F4180000000000002FD7
-t1340470296
-s12247
-
-N/Users/QA/source/sch-qa-core/automation/tools/R180NG-Mobile/setup/RearrangeNumber/RearrangeNumber/assets 2/s44jr_word_nine.mp3
-c000000004FE5F4180000000000002268
-t1340470296
-s8808
-
-N/Users/QA/source/sch-qa-core/automation/tools/R180NG-Mobile/setup/RearrangeNumber/RearrangeNumber/assets 2/s44jr_word_nineteen.mp3
-c000000004FE5F418000000000000436F
-t1340470296
-s17263
-
-N/Users/QA/source/sch-qa-core/automation/tools/R180NG-Mobile/setup/RearrangeNumber/RearrangeNumber/assets 2/s44jr_word_ninety.mp3
-c000000004FE5F4180000000000003200
-t1340470296
-s12800
-
-N/Users/QA/source/sch-qa-core/automation/tools/R180NG-Mobile/setup/RearrangeNumber/RearrangeNumber/assets 2/s44jr_word_one.mp3
-c000000004FE5F41A0000000000002E35
-t1340470298
-s11829
-
-N/Users/QA/source/sch-qa-core/automation/tools/R180NG-Mobile/setup/RearrangeNumber/RearrangeNumber/assets 2/s44jr_word_seven.mp3
-c000000004FE5F41A00000000000034BD
-t1340470298
-s13501
-
-N/Users/QA/source/sch-qa-core/automation/tools/R180NG-Mobile/setup/RearrangeNumber/RearrangeNumber/assets 2/s44jr_word_six.mp3
-c000000004FE5F41A0000000000003CE7
-t1340470298
-s15591
-
-N/Users/QA/source/sch-qa-core/automation/tools/R180NG-Mobile/setup/RearrangeNumber/RearrangeNumber/assets 2/s44jr_word_sixteen.mp3
-c000000004FE5F41C0000000000003B45
-t1340470300
-s15173
-
-N/Users/QA/source/sch-qa-core/automation/tools/R180NG-Mobile/setup/RearrangeNumber/RearrangeNumber/assets 2/s44jr_word_sixty.mp3
-c000000004FE5F41C0000000000004100
-t1340470300
-s16640
-
-N/Users/QA/source/sch-qa-core/automation/tools/R180NG-Mobile/setup/RearrangeNumber/RearrangeNumber/assets 2/s44jr_word_ten.mp3
-c000000004FE5F41C0000000000002AF2
-t1340470300
-s10994
-
-N/Users/QA/source/sch-qa-core/automation/tools/R180NG-Mobile/setup/RearrangeNumber/RearrangeNumber/assets 2/s44jr_word_thirteen.mp3
-c000000004FE5F41C000000000000402B
-t1340470300
-s16427
-
-N/Users/QA/source/sch-qa-core/automation/tools/R180NG-Mobile/setup/RearrangeNumber/RearrangeNumber/assets 2/s44jr_word_thirty.mp3
-c000000004FE5F41C0000000000002950
-t1340470300
-s10576
-
-N/Users/QA/source/sch-qa-core/automation/tools/R180NG-Mobile/setup/RearrangeNumber/RearrangeNumber/assets 2/s44jr_word_three.mp3
-c000000004FE5F41C000000000000365F
-t1340470300
-s13919
-
-N/Users/QA/source/sch-qa-core/automation/tools/R180NG-Mobile/setup/RearrangeNumber/RearrangeNumber/assets 2/s44jr_word_two.mp3
-c000000004FE5F41C00000000000022C8
-t1340470300
-s8904
-
-N/Users/QA/source/sch-qa-core/automation/tools/R180NG-Mobile/setup/RearrangeNumber/RearrangeNumber/assets/animation/frame-1.png
-c000000004A446C240000000000004E88
-t1245998116
-s20104
-
-N/Users/QA/source/sch-qa-core/automation/tools/R180NG-Mobile/setup/RearrangeNumber/RearrangeNumber/assets/animation/frame-10.png
-c000000004A446D3200000000000075C3
-t1245998386
-s30147
-
-N/Users/QA/source/sch-qa-core/automation/tools/R180NG-Mobile/setup/RearrangeNumber/RearrangeNumber/assets/animation/frame-11.png
-c000000004A446D5200000000000075C1
-t1245998418
-s30145
-
-N/Users/QA/source/sch-qa-core/automation/tools/R180NG-Mobile/setup/RearrangeNumber/RearrangeNumber/assets/animation/frame-12.png
-c000000004A446D8C00000000000074FC
-t1245998476
-s29948
-
-N/Users/QA/source/sch-qa-core/automation/tools/R180NG-Mobile/setup/RearrangeNumber/RearrangeNumber/assets/animation/frame-13.png
-c000000004A446DAE0000000000007D56
-t1245998510
-s32086
-
-N/Users/QA/source/sch-qa-core/automation/tools/R180NG-Mobile/setup/RearrangeNumber/RearrangeNumber/assets/animation/frame-14.png
-c000000004A446DCE0000000000007A9C
-t1245998542
-s31388
-
-N/Users/QA/source/sch-qa-core/automation/tools/R180NG-Mobile/setup/RearrangeNumber/RearrangeNumber/assets/animation/frame-15.png
-c000000004A446DF80000000000007B71
-t1245998584
-s31601
-
-N/Users/QA/source/sch-qa-core/automation/tools/R180NG-Mobile/setup/RearrangeNumber/RearrangeNumber/assets/animation/frame-16.png
-c000000004A446E1E00000000000073AF
-t1245998622
-s29615
-
-N/Users/QA/source/sch-qa-core/automation/tools/R180NG-Mobile/setup/RearrangeNumber/RearrangeNumber/assets/animation/frame-17.png
-c000000004A446E3E00000000000073BF
-t1245998654
-s29631
-
-N/Users/QA/source/sch-qa-core/automation/tools/R180NG-Mobile/setup/RearrangeNumber/RearrangeNumber/assets/animation/frame-18.png
-c000000004A446E5800000000000073AE
-t1245998680
-s29614
-
-N/Users/QA/source/sch-qa-core/automation/tools/R180NG-Mobile/setup/RearrangeNumber/RearrangeNumber/assets/animation/frame-19.png
-c000000004A446E6A00000000000073AD
-t1245998698
-s29613
-
-N/Users/QA/source/sch-qa-core/automation/tools/R180NG-Mobile/setup/RearrangeNumber/RearrangeNumber/assets/animation/frame-2.png
-c000000004A446C3A0000000000004E8B
-t1245998138
-s20107
-
-N/Users/QA/source/sch-qa-core/automation/tools/R180NG-Mobile/setup/RearrangeNumber/RearrangeNumber/assets/animation/frame-20.png
-c000000004A446E8600000000000073AF
-t1245998726
-s29615
-
-N/Users/QA/source/sch-qa-core/automation/tools/R180NG-Mobile/setup/RearrangeNumber/RearrangeNumber/assets/animation/frame-3.png
-c000000004A446C4E0000000000004E8B
-t1245998158
-s20107
-
-N/Users/QA/source/sch-qa-core/automation/tools/R180NG-Mobile/setup/RearrangeNumber/RearrangeNumber/assets/animation/frame-4.png
-c000000004A446C840000000000004E8C
-t1245998212
-s20108
-
-N/Users/QA/source/sch-qa-core/automation/tools/R180NG-Mobile/setup/RearrangeNumber/RearrangeNumber/assets/animation/frame-5.png
-c000000004A446C960000000000004E8B
-t1245998230
-s20107
-
-N/Users/QA/source/sch-qa-core/automation/tools/R180NG-Mobile/setup/RearrangeNumber/RearrangeNumber/assets/animation/frame-6.png
-c000000004A446CAA0000000000004E8B
-t1245998250
-s20107
-
-N/Users/QA/source/sch-qa-core/automation/tools/R180NG-Mobile/setup/RearrangeNumber/RearrangeNumber/assets/animation/frame-7.png
-c000000004A446CC80000000000004E8A
-t1245998280
-s20106
-
-N/Users/QA/source/sch-qa-core/automation/tools/R180NG-Mobile/setup/RearrangeNumber/RearrangeNumber/assets/animation/frame-8.png
-c000000004A446CF60000000000006734
-t1245998326
-s26420
-
-N/Users/QA/source/sch-qa-core/automation/tools/R180NG-Mobile/setup/RearrangeNumber/RearrangeNumber/assets/animation/frame-9.png
-c000000004A446D140000000000007415
-t1245998356
-s29717
-
-N/Users/QA/source/sch-qa-core/automation/tools/R180NG-Mobile/setup/RearrangeNumber/RearrangeNumber/assets/bee.png
-c000000004EE4274E00000000000048E4
-t1323575118
-s18660
-
-N/Users/QA/source/sch-qa-core/automation/tools/R180NG-Mobile/setup/RearrangeNumber/RearrangeNumber/assets/bubble.png
-c000000004EE40A7E00000000000003A8
-t1323567742
-s936
-
-N/Users/QA/source/sch-qa-core/automation/tools/R180NG-Mobile/setup/RearrangeNumber/RearrangeNumber/assets/cow.png
-c000000004EE4682C0000000000003BD0
-t1323591724
-s15312
-
-N/Users/QA/source/sch-qa-core/automation/tools/R180NG-Mobile/setup/RearrangeNumber/RearrangeNumber/assets/default.png
-c000000004EE46BB6000000000000C1BE
-t1323592630
-s49598
-
-N/Users/QA/source/sch-qa-core/automation/tools/R180NG-Mobile/setup/RearrangeNumber/RearrangeNumber/assets/horsey.png
-c000000004EE427240000000000002975
-t1323575076
-s10613
-
-N/Users/QA/source/sch-qa-core/automation/tools/R180NG-Mobile/setup/RearrangeNumber/RearrangeNumber/assets/icon.png
-c000000004EE46A160000000000002200
-t1323592214
-s8704
-
-N/Users/QA/source/sch-qa-core/automation/tools/R180NG-Mobile/setup/RearrangeNumber/RearrangeNumber/assets/landscape.png
-c000000004EE41E680000000000007AD9
-t1323572840
-s31449
-
-N/Users/QA/source/sch-qa-core/automation/tools/R180NG-Mobile/setup/RearrangeNumber/RearrangeNumber/assets/sounds/bee.wav
-c000000004890BA6A0000000000019FCA
-t1217444458
-s106442
-
-N/Users/QA/source/sch-qa-core/automation/tools/R180NG-Mobile/setup/RearrangeNumber/RearrangeNumber/assets/sounds/cow.wav
-c000000004D408A220000000000001F06
-t1296075298
-s7942
-
-N/Users/QA/source/sch-qa-core/automation/tools/R180NG-Mobile/setup/RearrangeNumber/RearrangeNumber/assets/sounds/horsey.wav
-c00000000395C371A000000000001B900
-t962344730
-s112896
-
-N/Users/QA/source/sch-qa-core/automation/tools/R180NG-Mobile/setup/RearrangeNumber/RearrangeNumber/assets/sounds/sun.wav
-c000000004670C0C80000000000019A2C
-t1181794504
-s105004
-
-N/Users/QA/source/sch-qa-core/automation/tools/R180NG-Mobile/setup/RearrangeNumber/RearrangeNumber/assets/sun.png
-c000000004EE42794000000000000486B
-t1323575188
-s18539
-
-N/Users/QA/source/sch-qa-core/automation/tools/R180NG-Mobile/setup/RearrangeNumber/RearrangeNumber/assets/video.png
-c000000004EE41AF200000000000003EF
-t1323571954
-s1007
-
-N/Users/QA/source/sch-qa-core/automation/tools/R180NG-Mobile/setup/RearrangeNumber/RearrangeNumber/en.lproj/InfoPlist.strings
-c00000000507DC3F2000000000000002D
-t1350419442
-s45
-
-N/Users/QA/source/sch-qa-core/automation/tools/R180NG-Mobile/setup/RearrangeNumber/RearrangeNumber/en.lproj/MainStoryboard.storyboard
-c00000000509945950000000000005A67
-t1352222101
-s23143
-
-N/Users/QA/source/sch-qa-core/automation/tools/R180NG-Mobile/setup/RearrangeNumber/RearrangeNumber/main.m
-c00000000507DC3F20000000000000165
-t1350419442
-s357
-
-N/Users/QA/source/sch-qa-core/automation/tools/R180NG-Mobile/setup/RearrangeNumber/build/Debug-iphonesimulator/RearrangeNumber.app
-t2
-s0
-
-N/Users/QA/source/sch-qa-core/automation/tools/R180NG-Mobile/setup/RearrangeNumber/build/Debug-iphonesimulator/RearrangeNumber.app.dSYM
-t2
-s0
-
-N/Users/QA/source/sch-qa-core/automation/tools/R180NG-Mobile/setup/RearrangeNumber/build/Debug-iphonesimulator/RearrangeNumber.app/Default-568h@2x.png
-t2
-s0
-
-N/Users/QA/source/sch-qa-core/automation/tools/R180NG-Mobile/setup/RearrangeNumber/build/Debug-iphonesimulator/RearrangeNumber.app/Default.png
-t2
-s0
-
-N/Users/QA/source/sch-qa-core/automation/tools/R180NG-Mobile/setup/RearrangeNumber/build/Debug-iphonesimulator/RearrangeNumber.app/Default@2x.png
-t2
-s0
-
-N/Users/QA/source/sch-qa-core/automation/tools/R180NG-Mobile/setup/RearrangeNumber/build/Debug-iphonesimulator/RearrangeNumber.app/Info.plist
-t2
-s0
-
-N/Users/QA/source/sch-qa-core/automation/tools/R180NG-Mobile/setup/RearrangeNumber/build/Debug-iphonesimulator/RearrangeNumber.app/PkgInfo
-t2
-s0
-
-N/Users/QA/source/sch-qa-core/automation/tools/R180NG-Mobile/setup/RearrangeNumber/build/Debug-iphonesimulator/RearrangeNumber.app/RearrangeNumber
-t2
-s0
-
-N/Users/QA/source/sch-qa-core/automation/tools/R180NG-Mobile/setup/RearrangeNumber/build/Debug-iphonesimulator/RearrangeNumber.app/bee.png
-t2
-s0
-
-N/Users/QA/source/sch-qa-core/automation/tools/R180NG-Mobile/setup/RearrangeNumber/build/Debug-iphonesimulator/RearrangeNumber.app/bee.wav
-t2
-s0
-
-N/Users/QA/source/sch-qa-core/automation/tools/R180NG-Mobile/setup/RearrangeNumber/build/Debug-iphonesimulator/RearrangeNumber.app/bubble.png
-t2
-s0
-
-N/Users/QA/source/sch-qa-core/automation/tools/R180NG-Mobile/setup/RearrangeNumber/build/Debug-iphonesimulator/RearrangeNumber.app/cat1.jpg
-t2
-s0
-
-N/Users/QA/source/sch-qa-core/automation/tools/R180NG-Mobile/setup/RearrangeNumber/build/Debug-iphonesimulator/RearrangeNumber.app/cat2.jpg
-t2
-s0
-
-N/Users/QA/source/sch-qa-core/automation/tools/R180NG-Mobile/setup/RearrangeNumber/build/Debug-iphonesimulator/RearrangeNumber.app/cow.png
-t2
-s0
-
-N/Users/QA/source/sch-qa-core/automation/tools/R180NG-Mobile/setup/RearrangeNumber/build/Debug-iphonesimulator/RearrangeNumber.app/cow.wav
-t2
-s0
-
-N/Users/QA/source/sch-qa-core/automation/tools/R180NG-Mobile/setup/RearrangeNumber/build/Debug-iphonesimulator/RearrangeNumber.app/default.png
-t2
-s0
-
-N/Users/QA/source/sch-qa-core/automation/tools/R180NG-Mobile/setup/RearrangeNumber/build/Debug-iphonesimulator/RearrangeNumber.app/dog1.jpg
-t2
-s0
-
-N/Users/QA/source/sch-qa-core/automation/tools/R180NG-Mobile/setup/RearrangeNumber/build/Debug-iphonesimulator/RearrangeNumber.app/dog2.jpg
-t2
-s0
-
-N/Users/QA/source/sch-qa-core/automation/tools/R180NG-Mobile/setup/RearrangeNumber/build/Debug-iphonesimulator/RearrangeNumber.app/ele1.jpg
-t2
-s0
-
-N/Users/QA/source/sch-qa-core/automation/tools/R180NG-Mobile/setup/RearrangeNumber/build/Debug-iphonesimulator/RearrangeNumber.app/en.lproj/InfoPlist.strings
-t2
-s0
-
-N/Users/QA/source/sch-qa-core/automation/tools/R180NG-Mobile/setup/RearrangeNumber/build/Debug-iphonesimulator/RearrangeNumber.app/en.lproj/MainStoryboard.storyboardc
-t2
-s0
-
-N/Users/QA/source/sch-qa-core/automation/tools/R180NG-Mobile/setup/RearrangeNumber/build/Debug-iphonesimulator/RearrangeNumber.app/frame-1.png
-t2
-s0
-
-N/Users/QA/source/sch-qa-core/automation/tools/R180NG-Mobile/setup/RearrangeNumber/build/Debug-iphonesimulator/RearrangeNumber.app/frame-10.png
-t2
-s0
-
-N/Users/QA/source/sch-qa-core/automation/tools/R180NG-Mobile/setup/RearrangeNumber/build/Debug-iphonesimulator/RearrangeNumber.app/frame-11.png
-t2
-s0
-
-N/Users/QA/source/sch-qa-core/automation/tools/R180NG-Mobile/setup/RearrangeNumber/build/Debug-iphonesimulator/RearrangeNumber.app/frame-12.png
-t2
-s0
-
-N/Users/QA/source/sch-qa-core/automation/tools/R180NG-Mobile/setup/RearrangeNumber/build/Debug-iphonesimulator/RearrangeNumber.app/frame-13.png
-t2
-s0
-
-N/Users/QA/source/sch-qa-core/automation/tools/R180NG-Mobile/setup/RearrangeNumber/build/Debug-iphonesimulator/RearrangeNumber.app/frame-14.png
-t2
-s0
-
-N/Users/QA/source/sch-qa-core/automation/tools/R180NG-Mobile/setup/RearrangeNumber/build/Debug-iphonesimulator/RearrangeNumber.app/frame-15.png
-t2
-s0
-
-N/Users/QA/source/sch-qa-core/automation/tools/R180NG-Mobile/setup/RearrangeNumber/build/Debug-iphonesimulator/RearrangeNumber.app/frame-16.png
-t2
-s0
-
-N/Users/QA/source/sch-qa-core/automation/tools/R180NG-Mobile/setup/RearrangeNumber/build/Debug-iphonesimulator/RearrangeNumber.app/frame-17.png
-t2
-s0
-
-N/Users/QA/source/sch-qa-core/automation/tools/R180NG-Mobile/setup/RearrangeNumber/build/Debug-iphonesimulator/RearrangeNumber.app/frame-18.png
-t2
-s0
-
-N/Users/QA/source/sch-qa-core/automation/tools/R180NG-Mobile/setup/RearrangeNumber/build/Debug-iphonesimulator/RearrangeNumber.app/frame-19.png
-t2
-s0
-
-N/Users/QA/source/sch-qa-core/automation/tools/R180NG-Mobile/setup/RearrangeNumber/build/Debug-iphonesimulator/RearrangeNumber.app/frame-2.png
-t2
-s0
-
-N/Users/QA/source/sch-qa-core/automation/tools/R180NG-Mobile/setup/RearrangeNumber/build/Debug-iphonesimulator/RearrangeNumber.app/frame-20.png
-t2
-s0
-
-N/Users/QA/source/sch-qa-core/automation/tools/R180NG-Mobile/setup/RearrangeNumber/build/Debug-iphonesimulator/RearrangeNumber.app/frame-3.png
-t2
-s0
-
-N/Users/QA/source/sch-qa-core/automation/tools/R180NG-Mobile/setup/RearrangeNumber/build/Debug-iphonesimulator/RearrangeNumber.app/frame-4.png
-t2
-s0
-
-N/Users/QA/source/sch-qa-core/automation/tools/R180NG-Mobile/setup/RearrangeNumber/build/Debug-iphonesimulator/RearrangeNumber.app/frame-5.png
-t2
-s0
-
-N/Users/QA/source/sch-qa-core/automation/tools/R180NG-Mobile/setup/RearrangeNumber/build/Debug-iphonesimulator/RearrangeNumber.app/frame-6.png
-t2
-s0
-
-N/Users/QA/source/sch-qa-core/automation/tools/R180NG-Mobile/setup/RearrangeNumber/build/Debug-iphonesimulator/RearrangeNumber.app/frame-7.png
-t2
-s0
-
-N/Users/QA/source/sch-qa-core/automation/tools/R180NG-Mobile/setup/RearrangeNumber/build/Debug-iphonesimulator/RearrangeNumber.app/frame-8.png
-t2
-s0
-
-N/Users/QA/source/sch-qa-core/automation/tools/R180NG-Mobile/setup/RearrangeNumber/build/Debug-iphonesimulator/RearrangeNumber.app/frame-9.png
-t2
-s0
-
-N/Users/QA/source/sch-qa-core/automation/tools/R180NG-Mobile/setup/RearrangeNumber/build/Debug-iphonesimulator/RearrangeNumber.app/horsey.png
-t2
-s0
-
-N/Users/QA/source/sch-qa-core/automation/tools/R180NG-Mobile/setup/RearrangeNumber/build/Debug-iphonesimulator/RearrangeNumber.app/horsey.wav
-t2
-s0
-
-N/Users/QA/source/sch-qa-core/automation/tools/R180NG-Mobile/setup/RearrangeNumber/build/Debug-iphonesimulator/RearrangeNumber.app/icon.png
-t2
-s0
-
-N/Users/QA/source/sch-qa-core/automation/tools/R180NG-Mobile/setup/RearrangeNumber/build/Debug-iphonesimulator/RearrangeNumber.app/images (12).jpg
-t2
-s0
-
-N/Users/QA/source/sch-qa-core/automation/tools/R180NG-Mobile/setup/RearrangeNumber/build/Debug-iphonesimulator/RearrangeNumber.app/images (15).jpg
-t2
-s0
-
-N/Users/QA/source/sch-qa-core/automation/tools/R180NG-Mobile/setup/RearrangeNumber/build/Debug-iphonesimulator/RearrangeNumber.app/images (16).jpg
-t2
-s0
-
-N/Users/QA/source/sch-qa-core/automation/tools/R180NG-Mobile/setup/RearrangeNumber/build/Debug-iphonesimulator/RearrangeNumber.app/images (17).jpg
-t2
-s0
-
-N/Users/QA/source/sch-qa-core/automation/tools/R180NG-Mobile/setup/RearrangeNumber/build/Debug-iphonesimulator/RearrangeNumber.app/images (18).jpg
-t2
-s0
-
-N/Users/QA/source/sch-qa-core/automation/tools/R180NG-Mobile/setup/RearrangeNumber/build/Debug-iphonesimulator/RearrangeNumber.app/images (19).jpg
-t2
-s0
-
-N/Users/QA/source/sch-qa-core/automation/tools/R180NG-Mobile/setup/RearrangeNumber/build/Debug-iphonesimulator/RearrangeNumber.app/images (2).jpg
-t2
-s0
-
-N/Users/QA/source/sch-qa-core/automation/tools/R180NG-Mobile/setup/RearrangeNumber/build/Debug-iphonesimulator/RearrangeNumber.app/images (20).jpg
-t2
-s0
-
-N/Users/QA/source/sch-qa-core/automation/tools/R180NG-Mobile/setup/RearrangeNumber/build/Debug-iphonesimulator/RearrangeNumber.app/images (21).jpg
-t2
-s0
-
-N/Users/QA/source/sch-qa-core/automation/tools/R180NG-Mobile/setup/RearrangeNumber/build/Debug-iphonesimulator/RearrangeNumber.app/images (22).jpg
-t2
-s0
-
-N/Users/QA/source/sch-qa-core/automation/tools/R180NG-Mobile/setup/RearrangeNumber/build/Debug-iphonesimulator/RearrangeNumber.app/images (3).jpg
-t2
-s0
-
-N/Users/QA/source/sch-qa-core/automation/tools/R180NG-Mobile/setup/RearrangeNumber/build/Debug-iphonesimulator/RearrangeNumber.app/images (4).jpg
-t2
-s0
-
-N/Users/QA/source/sch-qa-core/automation/tools/R180NG-Mobile/setup/RearrangeNumber/build/Debug-iphonesimulator/RearrangeNumber.app/images (5).jpg
-t2
-s0
-
-N/Users/QA/source/sch-qa-core/automation/tools/R180NG-Mobile/setup/RearrangeNumber/build/Debug-iphonesimulator/RearrangeNumber.app/images (6).jpg
-t2
-s0
-
-N/Users/QA/source/sch-qa-core/automation/tools/R180NG-Mobile/setup/RearrangeNumber/build/Debug-iphonesimulator/RearrangeNumber.app/images (7).jpg
-t2
-s0
-
-N/Users/QA/source/sch-qa-core/automation/tools/R180NG-Mobile/setup/RearrangeNumber/build/Debug-iphonesimulator/RearrangeNumber.app/images (8).png
-t2
-s0
-
-N/Users/QA/source/sch-qa-core/automation/tools/R180NG-Mobile/setup/RearrangeNumber/build/Debug-iphonesimulator/RearrangeNumber.app/images (9).jpg
-t2
-s0
-
-N/Users/QA/source/sch-qa-core/automation/tools/R180NG-Mobile/setup/RearrangeNumber/build/Debug-iphonesimulator/RearrangeNumber.app/images.jpg
-t2
-s0
-
-N/Users/QA/source/sch-qa-core/automation/tools/R180NG-Mobile/setup/RearrangeNumber/build/Debug-iphonesimulator/RearrangeNumber.app/landscape.png
-t2
-s0
-
-N/Users/QA/source/sch-qa-core/automation/tools/R180NG-Mobile/setup/RearrangeNumber/build/Debug-iphonesimulator/RearrangeNumber.app/s44jr_word_eight.mp3
-t2
-s0
-
-N/Users/QA/source/sch-qa-core/automation/tools/R180NG-Mobile/setup/RearrangeNumber/build/Debug-iphonesimulator/RearrangeNumber.app/s44jr_word_five.mp3
-t2
-s0
-
-N/Users/QA/source/sch-qa-core/automation/tools/R180NG-Mobile/setup/RearrangeNumber/build/Debug-iphonesimulator/RearrangeNumber.app/s44jr_word_four.mp3
-t2
-s0
-
-N/Users/QA/source/sch-qa-core/automation/tools/R180NG-Mobile/setup/RearrangeNumber/build/Debug-iphonesimulator/RearrangeNumber.app/s44jr_word_nine.mp3
-t2
-s0
-
-N/Users/QA/source/sch-qa-core/automation/tools/R180NG-Mobile/setup/RearrangeNumber/build/Debug-iphonesimulator/RearrangeNumber.app/s44jr_word_nineteen.mp3
-t2
-s0
-
-N/Users/QA/source/sch-qa-core/automation/tools/R180NG-Mobile/setup/RearrangeNumber/build/Debug-iphonesimulator/RearrangeNumber.app/s44jr_word_ninety.mp3
-t2
-s0
-
-N/Users/QA/source/sch-qa-core/automation/tools/R180NG-Mobile/setup/RearrangeNumber/build/Debug-iphonesimulator/RearrangeNumber.app/s44jr_word_one.mp3
-t2
-s0
-
-N/Users/QA/source/sch-qa-core/automation/tools/R180NG-Mobile/setup/RearrangeNumber/build/Debug-iphonesimulator/RearrangeNumber.app/s44jr_word_seven.mp3
-t2
-s0
-
-N/Users/QA/source/sch-qa-core/automation/tools/R180NG-Mobile/setup/RearrangeNumber/build/Debug-iphonesimulator/RearrangeNumber.app/s44jr_word_six.mp3
-t2
-s0
-
-N/Users/QA/source/sch-qa-core/automation/tools/R180NG-Mobile/setup/RearrangeNumber/build/Debug-iphonesimulator/RearrangeNumber.app/s44jr_word_sixteen.mp3
-t2
-s0
-
-N/Users/QA/source/sch-qa-core/automation/tools/R180NG-Mobile/setup/RearrangeNumber/build/Debug-iphonesimulator/RearrangeNumber.app/s44jr_word_sixty.mp3
-t2
-s0
-
-N/Users/QA/source/sch-qa-core/automation/tools/R180NG-Mobile/setup/RearrangeNumber/build/Debug-iphonesimulator/RearrangeNumber.app/s44jr_word_ten.mp3
-t2
-s0
-
-N/Users/QA/source/sch-qa-core/automation/tools/R180NG-Mobile/setup/RearrangeNumber/build/Debug-iphonesimulator/RearrangeNumber.app/s44jr_word_thirteen.mp3
-t2
-s0
-
-N/Users/QA/source/sch-qa-core/automation/tools/R180NG-Mobile/setup/RearrangeNumber/build/Debug-iphonesimulator/RearrangeNumber.app/s44jr_word_thirty.mp3
-t2
-s0
-
-N/Users/QA/source/sch-qa-core/automation/tools/R180NG-Mobile/setup/RearrangeNumber/build/Debug-iphonesimulator/RearrangeNumber.app/s44jr_word_three.mp3
-t2
-s0
-
-N/Users/QA/source/sch-qa-core/automation/tools/R180NG-Mobile/setup/RearrangeNumber/build/Debug-iphonesimulator/RearrangeNumber.app/s44jr_word_two.mp3
-t2
-s0
-
-N/Users/QA/source/sch-qa-core/automation/tools/R180NG-Mobile/setup/RearrangeNumber/build/Debug-iphonesimulator/RearrangeNumber.app/sun.png
-t2
-s0
-
-N/Users/QA/source/sch-qa-core/automation/tools/R180NG-Mobile/setup/RearrangeNumber/build/Debug-iphonesimulator/RearrangeNumber.app/sun.wav
-t2
-s0
-
-N/Users/QA/source/sch-qa-core/automation/tools/R180NG-Mobile/setup/RearrangeNumber/build/Debug-iphonesimulator/RearrangeNumber.app/video.png
-t2
-s0
-
-N/Users/QA/source/sch-qa-core/automation/tools/R180NG-Mobile/setup/RearrangeNumber/build/RearrangeNumber.build/Debug-iphonesimulator/RearrangeNumber.build/Objects-normal/i386/RearrangeNumber.LinkFileList
-c0000000051FAC64D0000000000000313
-t1375389261
-s787
-
-N/Users/QA/source/sch-qa-core/automation/tools/R180NG-Mobile/setup/RearrangeNumber/build/RearrangeNumber.build/Debug-iphonesimulator/RearrangeNumber.build/Objects-normal/i386/RearrangeNumberAppDelegate.o
-t2
-s0
-
-N/Users/QA/source/sch-qa-core/automation/tools/R180NG-Mobile/setup/RearrangeNumber/build/RearrangeNumber.build/Debug-iphonesimulator/RearrangeNumber.build/Objects-normal/i386/RearrangeNumberBrain.o
-t2
-s0
-
-N/Users/QA/source/sch-qa-core/automation/tools/R180NG-Mobile/setup/RearrangeNumber/build/RearrangeNumber.build/Debug-iphonesimulator/RearrangeNumber.build/Objects-normal/i386/RearrangeNumberViewController.o
-t2
-s0
-
-N/Users/QA/source/sch-qa-core/automation/tools/R180NG-Mobile/setup/RearrangeNumber/build/RearrangeNumber.build/Debug-iphonesimulator/RearrangeNumber.build/Objects-normal/i386/main.o
-t2
-s0
-
-N/var/folders/cp/v3lbpv3555z45xq56nkzz8lc0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/RearrangeNumber-Prefix-fzjcsiocqsfqlvfperlecjwdqlvo/RearrangeNumber-Prefix.pch.pth
-t2
-s0
-
-NRearrangeNumber/RearrangeNumber-Info.plist
-c00000000507DC3F20000000000000512
-t1350419442
-s1298
-
-CBuild AST from /Users/QA/source/sch-qa-core/automation/tools/R180NG-Mobile/setup/RearrangeNumber/RearrangeNumber/RearrangeNumberAppDelegate.m
-r0
-
-CBuild AST from /Users/QA/source/sch-qa-core/automation/tools/R180NG-Mobile/setup/RearrangeNumber/RearrangeNumber/RearrangeNumberBrain.m
-r0
-
-CBuild AST from /Users/QA/source/sch-qa-core/automation/tools/R180NG-Mobile/setup/RearrangeNumber/RearrangeNumber/RearrangeNumberViewController.m
-r0
-
-CBuild AST from /Users/QA/source/sch-qa-core/automation/tools/R180NG-Mobile/setup/RearrangeNumber/RearrangeNumber/main.m
-r0
-
-CCheck dependencies
-r0
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies0f60adcdfdaab741^a5bbbbcdfdaab741^---0#1#0#--18"Check dependencies36"FEE737E3-825F-4774-ABC2-2AB76A9B3F38-
-
-CCompileC build/RearrangeNumber.build/Debug-iphonesimulator/RearrangeNumber.build/Objects-normal/i386/RearrangeNumberAppDelegate.o /Users/QA/source/sch-qa-core/automation/tools/R180NG-Mobile/setup/RearrangeNumber/RearrangeNumber/RearrangeNumberAppDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s397082062.359270
-e397082062.480570
-r1
-xCompileC
-xbuild/RearrangeNumber.build/Debug-iphonesimulator/RearrangeNumber.build/Objects-normal/i386/RearrangeNumberAppDelegate.o
-x/Users/QA/source/sch-qa-core/automation/tools/R180NG-Mobile/setup/RearrangeNumber/RearrangeNumber/RearrangeNumberAppDelegate.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection134"Compile /Users/QA/source/sch-qa-core/automation/tools/R180NG-Mobile/setup/RearrangeNumber/RearrangeNumber/RearrangeNumberAppDelegate.m992e5ccefdaab741^c0077bcefdaab741^---0#0#0#-19%DVTDocumentLocation2@142"file://localhost/Users/QA/source/sch-qa-core/automation/tools/R180NG-Mobile/setup/RearrangeNumber/RearrangeNumber/RearrangeNumberAppDelegate.m0000000000000000^4315"CompileC build/RearrangeNumber.build/Debug-iphonesimulator/RearrangeNumber.build/Objects-normal/i386/RearrangeNumberAppDelegate.o RearrangeNumber/RearrangeNumberAppDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/QA/source/sch-qa-core/automation/tools/R180NG-Mobile/setup/RearrangeNumber    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=6.0 -iquote /Users/QA/source/sch-qa-core/automation/tools/R180NG-Mobile/setup/RearrangeNumber/build/RearrangeNumber.build/Debug-iphonesimulator/RearrangeNumber.build/RearrangeNumber-generated-files.hmap -I/Users/QA/source/sch-qa-core/automation/tools/R180NG-Mobile/setup/RearrangeNumber/build/RearrangeNumber.build/Debug-iphonesimulator/RearrangeNumber.build/RearrangeNumber-own-target-headers.hmap -I/Users/QA/source/sch-qa-core/automation/tools/R180NG-Mobile/setup/RearrangeNumber/build/RearrangeNumber.build/Debug-iphonesimulator/RearrangeNumber.build/RearrangeNumber-all-target-headers.hmap -iquote /Users/QA/source/sch-qa-core/automation/tools/R180NG-Mobile/setup/RearrangeNumber/build/RearrangeNumber.build/Debug-iphonesimulator/RearrangeNumber.build/RearrangeNumber-project-headers.hmap -I/Users/QA/source/sch-qa-core/automation/tools/R180NG-Mobile/setup/RearrangeNumber/build/Debug-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/QA/source/sch-qa-core/automation/tools/R180NG-Mobile/setup/RearrangeNumber/build/RearrangeNumber.build/Debug-iphonesimulator/RearrangeNumber.build/DerivedSources/i386 -I/Users/QA/source/sch-qa-core/automation/tools/R180NG-Mobile/setup/RearrangeNumber/build/RearrangeNumber.build/Debug-iphonesimulator/RearrangeNumber.build/DerivedSources -F/Users/QA/source/sch-qa-core/automation/tools/R180NG-Mobile/setup/RearrangeNumber/build/Debug-iphonesimulator -include /var/folders/cp/v3lbpv3555z45xq56nkzz8lc0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/RearrangeNumber-Prefix-fzjcsiocqsfqlvfperlecjwdqlvo/RearrangeNumber-Prefix.pch -MMD -MT dependencies -MF /Users/QA/source/sch-qa-core/automation/tools/R180NG-Mobile/setup/RearrangeNumber/build/RearrangeNumber.build/Debug-iphonesimulator/RearrangeNumber.build/Objects-normal/i386/RearrangeNumberAppDelegate.d --serialize-diagnostics /Users/QA/source/sch-qa-core/automation/tools/R180NG-Mobile/setup/RearrangeNumber/build/RearrangeNumber.build/Debug-iphonesimulator/RearrangeNumber.build/Objects-normal/i386/RearrangeNumberAppDelegate.dia -c /Users/QA/source/sch-qa-core/automation/tools/R180NG-Mobile/setup/RearrangeNumber/RearrangeNumber/RearrangeNumberAppDelegate.m -o /Users/QA/source/sch-qa-core/automation/tools/R180NG-Mobile/setup/RearrangeNumber/build/RearrangeNumber.build/Debug-iphonesimulator/RearrangeNumber.build/Objects-normal/i386/RearrangeNumberAppDelegate.o36"5A8EEE70-88BB-44A2-939A-F775943DF8BB-
-
-CCompileC build/RearrangeNumber.build/Debug-iphonesimulator/RearrangeNumber.build/Objects-normal/i386/RearrangeNumberBrain.o /Users/QA/source/sch-qa-core/automation/tools/R180NG-Mobile/setup/RearrangeNumber/RearrangeNumber/RearrangeNumberBrain.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s397082062.359877
-e397082062.468309
-r1
-xCompileC
-xbuild/RearrangeNumber.build/Debug-iphonesimulator/RearrangeNumber.build/Objects-normal/i386/RearrangeNumberBrain.o
-x/Users/QA/source/sch-qa-core/automation/tools/R180NG-Mobile/setup/RearrangeNumber/RearrangeNumber/RearrangeNumberBrain.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection128"Compile /Users/QA/source/sch-qa-core/automation/tools/R180NG-Mobile/setup/RearrangeNumber/RearrangeNumber/RearrangeNumberBrain.mf54b5ccefdaab741^c5e277cefdaab741^---0#0#0#-19%DVTDocumentLocation2@136"file://localhost/Users/QA/source/sch-qa-core/automation/tools/R180NG-Mobile/setup/RearrangeNumber/RearrangeNumber/RearrangeNumberBrain.m0000000000000000^4279"CompileC build/RearrangeNumber.build/Debug-iphonesimulator/RearrangeNumber.build/Objects-normal/i386/RearrangeNumberBrain.o RearrangeNumber/RearrangeNumberBrain.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/QA/source/sch-qa-core/automation/tools/R180NG-Mobile/setup/RearrangeNumber    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=6.0 -iquote /Users/QA/source/sch-qa-core/automation/tools/R180NG-Mobile/setup/RearrangeNumber/build/RearrangeNumber.build/Debug-iphonesimulator/RearrangeNumber.build/RearrangeNumber-generated-files.hmap -I/Users/QA/source/sch-qa-core/automation/tools/R180NG-Mobile/setup/RearrangeNumber/build/RearrangeNumber.build/Debug-iphonesimulator/RearrangeNumber.build/RearrangeNumber-own-target-headers.hmap -I/Users/QA/source/sch-qa-core/automation/tools/R180NG-Mobile/setup/RearrangeNumber/build/RearrangeNumber.build/Debug-iphonesimulator/RearrangeNumber.build/RearrangeNumber-all-target-headers.hmap -iquote /Users/QA/source/sch-qa-core/automation/tools/R180NG-Mobile/setup/RearrangeNumber/build/RearrangeNumber.build/Debug-iphonesimulator/RearrangeNumber.build/RearrangeNumber-project-headers.hmap -I/Users/QA/source/sch-qa-core/automation/tools/R180NG-Mobile/setup/RearrangeNumber/build/Debug-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/QA/source/sch-qa-core/automation/tools/R180NG-Mobile/setup/RearrangeNumber/build/RearrangeNumber.build/Debug-iphonesimulator/RearrangeNumber.build/DerivedSources/i386 -I/Users/QA/source/sch-qa-core/automation/tools/R180NG-Mobile/setup/RearrangeNumber/build/RearrangeNumber.build/Debug-iphonesimulator/RearrangeNumber.build/DerivedSources -F/Users/QA/source/sch-qa-core/automation/tools/R180NG-Mobile/setup/RearrangeNumber/build/Debug-iphonesimulator -include /var/folders/cp/v3lbpv3555z45xq56nkzz8lc0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/RearrangeNumber-Prefix-fzjcsiocqsfqlvfperlecjwdqlvo/RearrangeNumber-Prefix.pch -MMD -MT dependencies -MF /Users/QA/source/sch-qa-core/automation/tools/R180NG-Mobile/setup/RearrangeNumber/build/RearrangeNumber.build/Debug-iphonesimulator/RearrangeNumber.build/Objects-normal/i386/RearrangeNumberBrain.d --serialize-diagnostics /Users/QA/source/sch-qa-core/automation/tools/R180NG-Mobile/setup/RearrangeNumber/build/RearrangeNumber.build/Debug-iphonesimulator/RearrangeNumber.build/Objects-normal/i386/RearrangeNumberBrain.dia -c /Users/QA/source/sch-qa-core/automation/tools/R180NG-Mobile/setup/RearrangeNumber/RearrangeNumber/RearrangeNumberBrain.m -o /Users/QA/source/sch-qa-core/automation/tools/R180NG-Mobile/setup/RearrangeNumber/build/RearrangeNumber.build/Debug-iphonesimulator/RearrangeNumber.build/Objects-normal/i386/RearrangeNumberBrain.o36"2E619EF4-7749-4516-A1F8-C5FEDE6149F6-
-
-CCompileC build/RearrangeNumber.build/Debug-iphonesimulator/RearrangeNumber.build/Objects-normal/i386/RearrangeNumberViewController.o /Users/QA/source/sch-qa-core/automation/tools/R180NG-Mobile/setup/RearrangeNumber/RearrangeNumber/RearrangeNumberViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s397082062.359258
-e397082062.575499
-r1
-xCompileC
-xbuild/RearrangeNumber.build/Debug-iphonesimulator/RearrangeNumber.build/Objects-normal/i386/RearrangeNumberViewController.o
-x/Users/QA/source/sch-qa-core/automation/tools/R180NG-Mobile/setup/RearrangeNumber/RearrangeNumber/RearrangeNumberViewController.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection137"Compile /Users/QA/source/sch-qa-core/automation/tools/R180NG-Mobile/setup/RearrangeNumber/RearrangeNumber/RearrangeNumberViewController.md5245ccefdaab741^ef5593cefdaab741^---0#0#0#-19%DVTDocumentLocation2@145"file://localhost/Users/QA/source/sch-qa-core/automation/tools/R180NG-Mobile/setup/RearrangeNumber/RearrangeNumber/RearrangeNumberViewController.m0000000000000000^4333"CompileC build/RearrangeNumber.build/Debug-iphonesimulator/RearrangeNumber.build/Objects-normal/i386/RearrangeNumberViewController.o RearrangeNumber/RearrangeNumberViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/QA/source/sch-qa-core/automation/tools/R180NG-Mobile/setup/RearrangeNumber    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=6.0 -iquote /Users/QA/source/sch-qa-core/automation/tools/R180NG-Mobile/setup/RearrangeNumber/build/RearrangeNumber.build/Debug-iphonesimulator/RearrangeNumber.build/RearrangeNumber-generated-files.hmap -I/Users/QA/source/sch-qa-core/automation/tools/R180NG-Mobile/setup/RearrangeNumber/build/RearrangeNumber.build/Debug-iphonesimulator/RearrangeNumber.build/RearrangeNumber-own-target-headers.hmap -I/Users/QA/source/sch-qa-core/automation/tools/R180NG-Mobile/setup/RearrangeNumber/build/RearrangeNumber.build/Debug-iphonesimulator/RearrangeNumber.build/RearrangeNumber-all-target-headers.hmap -iquote /Users/QA/source/sch-qa-core/automation/tools/R180NG-Mobile/setup/RearrangeNumber/build/RearrangeNumber.build/Debug-iphonesimulator/RearrangeNumber.build/RearrangeNumber-project-headers.hmap -I/Users/QA/source/sch-qa-core/automation/tools/R180NG-Mobile/setup/RearrangeNumber/build/Debug-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/QA/source/sch-qa-core/automation/tools/R180NG-Mobile/setup/RearrangeNumber/build/RearrangeNumber.build/Debug-iphonesimulator/RearrangeNumber.build/DerivedSources/i386 -I/Users/QA/source/sch-qa-core/automation/tools/R180NG-Mobile/setup/RearrangeNumber/build/RearrangeNumber.build/Debug-iphonesimulator/RearrangeNumber.build/DerivedSources -F/Users/QA/source/sch-qa-core/automation/tools/R180NG-Mobile/setup/RearrangeNumber/build/Debug-iphonesimulator -include /var/folders/cp/v3lbpv3555z45xq56nkzz8lc0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/RearrangeNumber-Prefix-fzjcsiocqsfqlvfperlecjwdqlvo/RearrangeNumber-Prefix.pch -MMD -MT dependencies -MF /Users/QA/source/sch-qa-core/automation/tools/R180NG-Mobile/setup/RearrangeNumber/build/RearrangeNumber.build/Debug-iphonesimulator/RearrangeNumber.build/Objects-normal/i386/RearrangeNumberViewController.d --serialize-diagnostics /Users/QA/source/sch-qa-core/automation/tools/R180NG-Mobile/setup/RearrangeNumber/build/RearrangeNumber.build/Debug-iphonesimulator/RearrangeNumber.build/Objects-normal/i386/RearrangeNumberViewController.dia -c /Users/QA/source/sch-qa-core/automation/tools/R180NG-Mobile/setup/RearrangeNumber/RearrangeNumber/RearrangeNumberViewController.m -o /Users/QA/source/sch-qa-core/automation/tools/R180NG-Mobile/setup/RearrangeNumber/build/RearrangeNumber.build/Debug-iphonesimulator/RearrangeNumber.build/Objects-normal/i386/RearrangeNumberViewController.o36"23287461-1D44-4898-85E5-0AB76E7DB28C-
-
-CCompileC build/RearrangeNumber.build/Debug-iphonesimulator/RearrangeNumber.build/Objects-normal/i386/main.o /Users/QA/source/sch-qa-core/automation/tools/R180NG-Mobile/setup/RearrangeNumber/RearrangeNumber/main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s397082062.359245
-e397082062.458885
-r1
-xCompileC
-xbuild/RearrangeNumber.build/Debug-iphonesimulator/RearrangeNumber.build/Objects-normal/i386/main.o
-x/Users/QA/source/sch-qa-core/automation/tools/R180NG-Mobile/setup/RearrangeNumber/RearrangeNumber/main.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection112"Compile /Users/QA/source/sch-qa-core/automation/tools/R180NG-Mobile/setup/RearrangeNumber/RearrangeNumber/main.mec2e5ccefdaab741^6a8575cefdaab741^---0#0#0#-19%DVTDocumentLocation2@120"file://localhost/Users/QA/source/sch-qa-core/automation/tools/R180NG-Mobile/setup/RearrangeNumber/RearrangeNumber/main.m0000000000000000^4183"CompileC build/RearrangeNumber.build/Debug-iphonesimulator/RearrangeNumber.build/Objects-normal/i386/main.o RearrangeNumber/main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/QA/source/sch-qa-core/automation/tools/R180NG-Mobile/setup/RearrangeNumber    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=6.0 -iquote /Users/QA/source/sch-qa-core/automation/tools/R180NG-Mobile/setup/RearrangeNumber/build/RearrangeNumber.build/Debug-iphonesimulator/RearrangeNumber.build/RearrangeNumber-generated-files.hmap -I/Users/QA/source/sch-qa-core/automation/tools/R180NG-Mobile/setup/RearrangeNumber/build/RearrangeNumber.build/Debug-iphonesimulator/RearrangeNumber.build/RearrangeNumber-own-target-headers.hmap -I/Users/QA/source/sch-qa-core/automation/tools/R180NG-Mobile/setup/RearrangeNumber/build/RearrangeNumber.build/Debug-iphonesimulator/RearrangeNumber.build/RearrangeNumber-all-target-headers.hmap -iquote /Users/QA/source/sch-qa-core/automation/tools/R180NG-Mobile/setup/RearrangeNumber/build/RearrangeNumber.build/Debug-iphonesimulator/RearrangeNumber.build/RearrangeNumber-project-headers.hmap -I/Users/QA/source/sch-qa-core/automation/tools/R180NG-Mobile/setup/RearrangeNumber/build/Debug-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/QA/source/sch-qa-core/automation/tools/R180NG-Mobile/setup/RearrangeNumber/build/RearrangeNumber.build/Debug-iphonesimulator/RearrangeNumber.build/DerivedSources/i386 -I/Users/QA/source/sch-qa-core/automation/tools/R180NG-Mobile/setup/RearrangeNumber/build/RearrangeNumber.build/Debug-iphonesimulator/RearrangeNumber.build/DerivedSources -F/Users/QA/source/sch-qa-core/automation/tools/R180NG-Mobile/setup/RearrangeNumber/build/Debug-iphonesimulator -include /var/folders/cp/v3lbpv3555z45xq56nkzz8lc0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/RearrangeNumber-Prefix-fzjcsiocqsfqlvfperlecjwdqlvo/RearrangeNumber-Prefix.pch -MMD -MT dependencies -MF /Users/QA/source/sch-qa-core/automation/tools/R180NG-Mobile/setup/RearrangeNumber/build/RearrangeNumber.build/Debug-iphonesimulator/RearrangeNumber.build/Objects-normal/i386/main.d --serialize-diagnostics /Users/QA/source/sch-qa-core/automation/tools/R180NG-Mobile/setup/RearrangeNumber/build/RearrangeNumber.build/Debug-iphonesimulator/RearrangeNumber.build/Objects-normal/i386/main.dia -c /Users/QA/source/sch-qa-core/automation/tools/R180NG-Mobile/setup/RearrangeNumber/RearrangeNumber/main.m -o /Users/QA/source/sch-qa-core/automation/tools/R180NG-Mobile/setup/RearrangeNumber/build/RearrangeNumber.build/Debug-iphonesimulator/RearrangeNumber.build/Objects-normal/i386/main.o36"E6E12234-9BA8-43CD-8519-B3718F0240AB-
-
-CCompileStoryboard /Users/QA/source/sch-qa-core/automation/tools/R180NG-Mobile/setup/RearrangeNumber/RearrangeNumber/en.lproj/MainStoryboard.storyboard
-s397082063.368375
-e397082064.510699
-r1
-xCompileStoryboard
-x/Users/QA/source/sch-qa-core/automation/tools/R180NG-Mobile/setup/RearrangeNumber/RearrangeNumber/en.lproj/MainStoryboard.storyboard
-o2013-08-01 16:34:24.022 Interface Builder Cocoa Touch Tool[24047:f07] CFPreferences: user home directory at file://localhost/Users/QA/Library/Application%20Support/iPhone%20Simulator/User/ is unavailable. User domains will be volatile.
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection68"CompileStoryboard RearrangeNumber/en.lproj/MainStoryboard.storyboardd8635ecffdaab741^b4c882d0fdaab741^-235"2013-08-01 16:34:24.022 Interface Builder Cocoa Touch Tool[24047:f07] CFPreferences: user home directory at file://localhost/Users/QA/Library/Application%20Support/iPhone%20Simulator/User/ is unavailable. User domains will be volatile.-0#0#0#-19%DVTDocumentLocation2@148"file://localhost/Users/QA/source/sch-qa-core/automation/tools/R180NG-Mobile/setup/RearrangeNumber/RearrangeNumber/en.lproj/MainStoryboard.storyboard0000000000000000^1097"CompileStoryboard RearrangeNumber/en.lproj/MainStoryboard.storyboard    cd /Users/QA/source/sch-qa-core/automation/tools/R180NG-Mobile/setup/RearrangeNumber    setenv IBSC_MINIMUM_COMPATIBILITY_VERSION 6.0    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    setenv XCODE_DEVELOPER_USR_PATH /Applications/Xcode.app/Contents/Developer/usr/bin/..    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/QA/source/sch-qa-core/automation/tools/R180NG-Mobile/setup/RearrangeNumber/build/Debug-iphonesimulator/RearrangeNumber.app/en.lproj/MainStoryboard.storyboardc /Users/QA/source/sch-qa-core/automation/tools/R180NG-Mobile/setup/RearrangeNumber/RearrangeNumber/en.lproj/MainStoryboard.storyboard --sdk /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk36"358DAD93-C03C-4D5C-A2B2-8CFA2F0201CD-
-
-CCopyStringsFile /Users/QA/source/sch-qa-core/automation/tools/R180NG-Mobile/setup/RearrangeNumber/build/Debug-iphonesimulator/RearrangeNumber.app/en.lproj/InfoPlist.strings RearrangeNumber/en.lproj/InfoPlist.strings
-s397082063.363981
-e397082063.367028
-r1
-xCopyStringsFile
-x/Users/QA/source/sch-qa-core/automation/tools/R180NG-Mobile/setup/RearrangeNumber/build/Debug-iphonesimulator/RearrangeNumber.app/en.lproj/InfoPlist.strings
-xRearrangeNumber/en.lproj/InfoPlist.strings
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection47"Copy RearrangeNumber/en.lproj/InfoPlist.strings1f4d5dcffdaab741^9df55dcffdaab741^---0#0#0#-19%DVTDocumentLocation2@140"file://localhost/Users/QA/source/sch-qa-core/automation/tools/R180NG-Mobile/setup/RearrangeNumber/RearrangeNumber/en.lproj/InfoPlist.strings0000000000000000^693"CopyStringsFile build/Debug-iphonesimulator/RearrangeNumber.app/en.lproj/InfoPlist.strings RearrangeNumber/en.lproj/InfoPlist.strings    cd /Users/QA/source/sch-qa-core/automation/tools/R180NG-Mobile/setup/RearrangeNumber    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding binary --outdir /Users/QA/source/sch-qa-core/automation/tools/R180NG-Mobile/setup/RearrangeNumber/build/Debug-iphonesimulator/RearrangeNumber.app/en.lproj -- RearrangeNumber/en.lproj/InfoPlist.strings36"0209ED20-D600-4B77-B2EA-0FE8BD0567D6-
-
-CCpResource "RearrangeNumber/assets 2/cat1.jpg" build/Debug-iphonesimulator/RearrangeNumber.app/cat1.jpg
-s397082063.428988
-e397082063.431092
-r1
-xCpResource
-xRearrangeNumber/assets 2/cat1.jpg
-xbuild/Debug-iphonesimulator/RearrangeNumber.app/cat1.jpg
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection61"Copy build/Debug-iphonesimulator/RearrangeNumber.app/cat1.jpg18e96dcffdaab741^0c5c6ecffdaab741^---0#0#0#-19%DVTDocumentLocation2@154"file://localhost/Users/QA/source/sch-qa-core/automation/tools/R180NG-Mobile/setup/RearrangeNumber/build/Debug-iphonesimulator/RearrangeNumber.app/cat1.jpg000000000080d041^748"CpResource "RearrangeNumber/assets 2/cat1.jpg" build/Debug-iphonesimulator/RearrangeNumber.app/cat1.jpg    cd /Users/QA/source/sch-qa-core/automation/tools/R180NG-Mobile/setup/RearrangeNumber    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks "/Users/QA/source/sch-qa-core/automation/tools/R180NG-Mobile/setup/RearrangeNumber/RearrangeNumber/assets 2/cat1.jpg" /Users/QA/source/sch-qa-core/automation/tools/R180NG-Mobile/setup/RearrangeNumber/build/Debug-iphonesimulator/RearrangeNumber.app36"E2536F68-A055-45E8-91D5-6F380D8C7C74-
-
-CCpResource "RearrangeNumber/assets 2/cat2.jpg" build/Debug-iphonesimulator/RearrangeNumber.app/cat2.jpg
-s397082063.428993
-e397082063.432214
-r1
-xCpResource
-xRearrangeNumber/assets 2/cat2.jpg
-xbuild/Debug-iphonesimulator/RearrangeNumber.app/cat2.jpg
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection61"Copy build/Debug-iphonesimulator/RearrangeNumber.app/cat2.jpgdae76dcffdaab741^c6a56ecffdaab741^---0#0#0#-19%DVTDocumentLocation2@154"file://localhost/Users/QA/source/sch-qa-core/automation/tools/R180NG-Mobile/setup/RearrangeNumber/build/Debug-iphonesimulator/RearrangeNumber.app/cat2.jpg000000000080d041^748"CpResource "RearrangeNumber/assets 2/cat2.jpg" build/Debug-iphonesimulator/RearrangeNumber.app/cat2.jpg    cd /Users/QA/source/sch-qa-core/automation/tools/R180NG-Mobile/setup/RearrangeNumber    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks "/Users/QA/source/sch-qa-core/automation/tools/R180NG-Mobile/setup/RearrangeNumber/RearrangeNumber/assets 2/cat2.jpg" /Users/QA/source/sch-qa-core/automation/tools/R180NG-Mobile/setup/RearrangeNumber/build/Debug-iphonesimulator/RearrangeNumber.app36"26D0C14D-0D7B-4F13-9362-20ADDE5C487E-
-
-CCpResource "RearrangeNumber/assets 2/dog1.jpg" build/Debug-iphonesimulator/RearrangeNumber.app/dog1.jpg
-s397082063.424522
-e397082063.426533
-r1
-xCpResource
-xRearrangeNumber/assets 2/dog1.jpg
-xbuild/Debug-iphonesimulator/RearrangeNumber.app/dog1.jpg
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection61"Copy build/Debug-iphonesimulator/RearrangeNumber.app/dog1.jpgb6be6ccffdaab741^82366dcffdaab741^---0#0#0#-19%DVTDocumentLocation2@154"file://localhost/Users/QA/source/sch-qa-core/automation/tools/R180NG-Mobile/setup/RearrangeNumber/build/Debug-iphonesimulator/RearrangeNumber.app/dog1.jpg000000000080d041^748"CpResource "RearrangeNumber/assets 2/dog1.jpg" build/Debug-iphonesimulator/RearrangeNumber.app/dog1.jpg    cd /Users/QA/source/sch-qa-core/automation/tools/R180NG-Mobile/setup/RearrangeNumber    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks "/Users/QA/source/sch-qa-core/automation/tools/R180NG-Mobile/setup/RearrangeNumber/RearrangeNumber/assets 2/dog1.jpg" /Users/QA/source/sch-qa-core/automation/tools/R180NG-Mobile/setup/RearrangeNumber/build/Debug-iphonesimulator/RearrangeNumber.app36"80FCF7A5-ED52-4231-9214-EA4FC48FEE8D-
-
-CCpResource "RearrangeNumber/assets 2/dog2.jpg" build/Debug-iphonesimulator/RearrangeNumber.app/dog2.jpg
-s397082063.426762
-e397082063.429950
-r1
-xCpResource
-xRearrangeNumber/assets 2/dog2.jpg
-xbuild/Debug-iphonesimulator/RearrangeNumber.app/dog2.jpg
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection61"Copy build/Debug-iphonesimulator/RearrangeNumber.app/dog2.jpg82556dcffdaab741^73126ecffdaab741^---0#0#0#-19%DVTDocumentLocation2@154"file://localhost/Users/QA/source/sch-qa-core/automation/tools/R180NG-Mobile/setup/RearrangeNumber/build/Debug-iphonesimulator/RearrangeNumber.app/dog2.jpg000000000080d041^748"CpResource "RearrangeNumber/assets 2/dog2.jpg" build/Debug-iphonesimulator/RearrangeNumber.app/dog2.jpg    cd /Users/QA/source/sch-qa-core/automation/tools/R180NG-Mobile/setup/RearrangeNumber    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks "/Users/QA/source/sch-qa-core/automation/tools/R180NG-Mobile/setup/RearrangeNumber/RearrangeNumber/assets 2/dog2.jpg" /Users/QA/source/sch-qa-core/automation/tools/R180NG-Mobile/setup/RearrangeNumber/build/Debug-iphonesimulator/RearrangeNumber.app36"6915DB2C-9BA9-416D-BABB-68B71247BD03-
-
-CCpResource "RearrangeNumber/assets 2/ele1.jpg" build/Debug-iphonesimulator/RearrangeNumber.app/ele1.jpg
-s397082063.424514
-e397082063.427723
-r1
-xCpResource
-xRearrangeNumber/assets 2/ele1.jpg
-xbuild/Debug-iphonesimulator/RearrangeNumber.app/ele1.jpg
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection61"Copy build/Debug-iphonesimulator/RearrangeNumber.app/ele1.jpgdfc06ccffdaab741^ed7e6dcffdaab741^---0#0#0#-19%DVTDocumentLocation2@154"file://localhost/Users/QA/source/sch-qa-core/automation/tools/R180NG-Mobile/setup/RearrangeNumber/build/Debug-iphonesimulator/RearrangeNumber.app/ele1.jpg000000000080d041^748"CpResource "RearrangeNumber/assets 2/ele1.jpg" build/Debug-iphonesimulator/RearrangeNumber.app/ele1.jpg    cd /Users/QA/source/sch-qa-core/automation/tools/R180NG-Mobile/setup/RearrangeNumber    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks "/Users/QA/source/sch-qa-core/automation/tools/R180NG-Mobile/setup/RearrangeNumber/RearrangeNumber/assets 2/ele1.jpg" /Users/QA/source/sch-qa-core/automation/tools/R180NG-Mobile/setup/RearrangeNumber/build/Debug-iphonesimulator/RearrangeNumber.app36"367D5487-A0CA-49F5-AEB7-C27FE558F09A-
-
-CCpResource "RearrangeNumber/assets 2/images (12).jpg" "build/Debug-iphonesimulator/RearrangeNumber.app/images (12).jpg"
-s397082063.426769
-e397082063.428817
-r1
-xCpResource
-xRearrangeNumber/assets 2/images (12).jpg
-xbuild/Debug-iphonesimulator/RearrangeNumber.app/images (12).jpg
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection68"Copy build/Debug-iphonesimulator/RearrangeNumber.app/images (12).jpg7a536dcffdaab741^7ec66dcffdaab741^---0#0#0#-19%DVTDocumentLocation2@163"file://localhost/Users/QA/source/sch-qa-core/automation/tools/R180NG-Mobile/setup/RearrangeNumber/build/Debug-iphonesimulator/RearrangeNumber.app/images%20(12).jpg000000000080d041^771"CpResource "RearrangeNumber/assets 2/images (12).jpg" "build/Debug-iphonesimulator/RearrangeNumber.app/images (12).jpg"    cd /Users/QA/source/sch-qa-core/automation/tools/R180NG-Mobile/setup/RearrangeNumber    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks "/Users/QA/source/sch-qa-core/automation/tools/R180NG-Mobile/setup/RearrangeNumber/RearrangeNumber/assets 2/images (12).jpg" /Users/QA/source/sch-qa-core/automation/tools/R180NG-Mobile/setup/RearrangeNumber/build/Debug-iphonesimulator/RearrangeNumber.app36"54CCAAA7-C848-45D1-AFCE-7C98AD96BF0E-
-
-CCpResource "RearrangeNumber/assets 2/images (15).jpg" "build/Debug-iphonesimulator/RearrangeNumber.app/images (15).jpg"
-s397082063.431199
-e397082063.433331
-r1
-xCpResource
-xRearrangeNumber/assets 2/images (15).jpg
-xbuild/Debug-iphonesimulator/RearrangeNumber.app/images (15).jpg
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection68"Copy build/Debug-iphonesimulator/RearrangeNumber.app/images (15).jpg18786ecffdaab741^feed6ecffdaab741^---0#0#0#-19%DVTDocumentLocation2@163"file://localhost/Users/QA/source/sch-qa-core/automation/tools/R180NG-Mobile/setup/RearrangeNumber/build/Debug-iphonesimulator/RearrangeNumber.app/images%20(15).jpg000000000080d041^771"CpResource "RearrangeNumber/assets 2/images (15).jpg" "build/Debug-iphonesimulator/RearrangeNumber.app/images (15).jpg"    cd /Users/QA/source/sch-qa-core/automation/tools/R180NG-Mobile/setup/RearrangeNumber    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks "/Users/QA/source/sch-qa-core/automation/tools/R180NG-Mobile/setup/RearrangeNumber/RearrangeNumber/assets 2/images (15).jpg" /Users/QA/source/sch-qa-core/automation/tools/R180NG-Mobile/setup/RearrangeNumber/build/Debug-iphonesimulator/RearrangeNumber.app36"E00742F4-E629-4E60-B351-A6F5A7F16ACC-
-
-CCpResource "RearrangeNumber/assets 2/images (16).jpg" "build/Debug-iphonesimulator/RearrangeNumber.app/images (16).jpg"
-s397082063.432314
-e397082063.434437
-r1
-xCpResource
-xRearrangeNumber/assets 2/images (16).jpg
-xbuild/Debug-iphonesimulator/RearrangeNumber.app/images (16).jpg
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection68"Copy build/Debug-iphonesimulator/RearrangeNumber.app/images (16).jpg0ec06ecffdaab741^ce366fcffdaab741^---0#0#0#-19%DVTDocumentLocation2@163"file://localhost/Users/QA/source/sch-qa-core/automation/tools/R180NG-Mobile/setup/RearrangeNumber/build/Debug-iphonesimulator/RearrangeNumber.app/images%20(16).jpg000000000080d041^771"CpResource "RearrangeNumber/assets 2/images (16).jpg" "build/Debug-iphonesimulator/RearrangeNumber.app/images (16).jpg"    cd /Users/QA/source/sch-qa-core/automation/tools/R180NG-Mobile/setup/RearrangeNumber    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks "/Users/QA/source/sch-qa-core/automation/tools/R180NG-Mobile/setup/RearrangeNumber/RearrangeNumber/assets 2/images (16).jpg" /Users/QA/source/sch-qa-core/automation/tools/R180NG-Mobile/setup/RearrangeNumber/build/Debug-iphonesimulator/RearrangeNumber.app36"768EF262-5279-49C0-B7AF-6A1697381359-
-
-CCpResource "RearrangeNumber/assets 2/images (17).jpg" "build/Debug-iphonesimulator/RearrangeNumber.app/images (17).jpg"
-s397082063.433459
-e397082063.435510
-r1
-xCpResource
-xRearrangeNumber/assets 2/images (17).jpg
-xbuild/Debug-iphonesimulator/RearrangeNumber.app/images (17).jpg
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection68"Copy build/Debug-iphonesimulator/RearrangeNumber.app/images (17).jpg14086fcffdaab741^dd7c6fcffdaab741^---0#0#0#-19%DVTDocumentLocation2@163"file://localhost/Users/QA/source/sch-qa-core/automation/tools/R180NG-Mobile/setup/RearrangeNumber/build/Debug-iphonesimulator/RearrangeNumber.app/images%20(17).jpg000000000080d041^771"CpResource "RearrangeNumber/assets 2/images (17).jpg" "build/Debug-iphonesimulator/RearrangeNumber.app/images (17).jpg"    cd /Users/QA/source/sch-qa-core/automation/tools/R180NG-Mobile/setup/RearrangeNumber    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks "/Users/QA/source/sch-qa-core/automation/tools/R180NG-Mobile/setup/RearrangeNumber/RearrangeNumber/assets 2/images (17).jpg" /Users/QA/source/sch-qa-core/automation/tools/R180NG-Mobile/setup/RearrangeNumber/build/Debug-iphonesimulator/RearrangeNumber.app36"C1EABB06-74E4-4F44-909D-859CE09C2D0E-
-
-CCpResource "RearrangeNumber/assets 2/images (18).jpg" "build/Debug-iphonesimulator/RearrangeNumber.app/images (18).jpg"
-s397082063.434623
-e397082063.436594
-r1
-xCpResource
-xRearrangeNumber/assets 2/images (18).jpg
-xbuild/Debug-iphonesimulator/RearrangeNumber.app/images (18).jpg
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection68"Copy build/Debug-iphonesimulator/RearrangeNumber.app/images (18).jpga8526fcffdaab741^9bc96fcffdaab741^---0#0#0#-19%DVTDocumentLocation2@163"file://localhost/Users/QA/source/sch-qa-core/automation/tools/R180NG-Mobile/setup/RearrangeNumber/build/Debug-iphonesimulator/RearrangeNumber.app/images%20(18).jpg000000000080d041^771"CpResource "RearrangeNumber/assets 2/images (18).jpg" "build/Debug-iphonesimulator/RearrangeNumber.app/images (18).jpg"    cd /Users/QA/source/sch-qa-core/automation/tools/R180NG-Mobile/setup/RearrangeNumber    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks "/Users/QA/source/sch-qa-core/automation/tools/R180NG-Mobile/setup/RearrangeNumber/RearrangeNumber/assets 2/images (18).jpg" /Users/QA/source/sch-qa-core/automation/tools/R180NG-Mobile/setup/RearrangeNumber/build/Debug-iphonesimulator/RearrangeNumber.app36"6A3FD86D-27DA-4CC0-91B4-979EA68A4024-
-
-CCpResource "RearrangeNumber/assets 2/images (19).jpg" "build/Debug-iphonesimulator/RearrangeNumber.app/images (19).jpg"
-s397082063.435670
-e397082063.437734
-r1
-xCpResource
-xRearrangeNumber/assets 2/images (19).jpg
-xbuild/Debug-iphonesimulator/RearrangeNumber.app/images (19).jpg
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection68"Copy build/Debug-iphonesimulator/RearrangeNumber.app/images (19).jpgae9a6fcffdaab741^bf0e70cffdaab741^---0#0#0#-19%DVTDocumentLocation2@163"file://localhost/Users/QA/source/sch-qa-core/automation/tools/R180NG-Mobile/setup/RearrangeNumber/build/Debug-iphonesimulator/RearrangeNumber.app/images%20(19).jpg000000000080d041^771"CpResource "RearrangeNumber/assets 2/images (19).jpg" "build/Debug-iphonesimulator/RearrangeNumber.app/images (19).jpg"    cd /Users/QA/source/sch-qa-core/automation/tools/R180NG-Mobile/setup/RearrangeNumber    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks "/Users/QA/source/sch-qa-core/automation/tools/R180NG-Mobile/setup/RearrangeNumber/RearrangeNumber/assets 2/images (19).jpg" /Users/QA/source/sch-qa-core/automation/tools/R180NG-Mobile/setup/RearrangeNumber/build/Debug-iphonesimulator/RearrangeNumber.app36"65D68824-6BCA-484C-8D7A-9EF4EA21401A-
-
-CCpResource "RearrangeNumber/assets 2/images (2).jpg" "build/Debug-iphonesimulator/RearrangeNumber.app/images (2).jpg"
-s397082063.435673
-e397082063.438968
-r1
-xCpResource
-xRearrangeNumber/assets 2/images (2).jpg
-xbuild/Debug-iphonesimulator/RearrangeNumber.app/images (2).jpg
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection67"Copy build/Debug-iphonesimulator/RearrangeNumber.app/images (2).jpgd89c6fcffdaab741^5b5f70cffdaab741^---0#0#0#-19%DVTDocumentLocation2@162"file://localhost/Users/QA/source/sch-qa-core/automation/tools/R180NG-Mobile/setup/RearrangeNumber/build/Debug-iphonesimulator/RearrangeNumber.app/images%20(2).jpg000000000080d041^768"CpResource "RearrangeNumber/assets 2/images (2).jpg" "build/Debug-iphonesimulator/RearrangeNumber.app/images (2).jpg"    cd /Users/QA/source/sch-qa-core/automation/tools/R180NG-Mobile/setup/RearrangeNumber    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks "/Users/QA/source/sch-qa-core/automation/tools/R180NG-Mobile/setup/RearrangeNumber/RearrangeNumber/assets 2/images (2).jpg" /Users/QA/source/sch-qa-core/automation/tools/R180NG-Mobile/setup/RearrangeNumber/build/Debug-iphonesimulator/RearrangeNumber.app36"D70A811C-4449-44FF-9380-431C2FA77FE2-
-
-CCpResource "RearrangeNumber/assets 2/images (20).jpg" "build/Debug-iphonesimulator/RearrangeNumber.app/images (20).jpg"
-s397082063.437843
-e397082063.440001
-r1
-xCpResource
-xRearrangeNumber/assets 2/images (20).jpg
-xbuild/Debug-iphonesimulator/RearrangeNumber.app/images (20).jpg
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection68"Copy build/Debug-iphonesimulator/RearrangeNumber.app/images (20).jpgcf2d70cffdaab741^40a370cffdaab741^---0#0#0#-19%DVTDocumentLocation2@163"file://localhost/Users/QA/source/sch-qa-core/automation/tools/R180NG-Mobile/setup/RearrangeNumber/build/Debug-iphonesimulator/RearrangeNumber.app/images%20(20).jpg000000000080d041^771"CpResource "RearrangeNumber/assets 2/images (20).jpg" "build/Debug-iphonesimulator/RearrangeNumber.app/images (20).jpg"    cd /Users/QA/source/sch-qa-core/automation/tools/R180NG-Mobile/setup/RearrangeNumber    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks "/Users/QA/source/sch-qa-core/automation/tools/R180NG-Mobile/setup/RearrangeNumber/RearrangeNumber/assets 2/images (20).jpg" /Users/QA/source/sch-qa-core/automation/tools/R180NG-Mobile/setup/RearrangeNumber/build/Debug-iphonesimulator/RearrangeNumber.app36"4CD99968-160A-43BB-B4A9-BD0DF8938B10-
-
-CCpResource "RearrangeNumber/assets 2/images (21).jpg" "build/Debug-iphonesimulator/RearrangeNumber.app/images (21).jpg"
-s397082063.438951
-e397082063.441079
-r1
-xCpResource
-xRearrangeNumber/assets 2/images (21).jpg
-xbuild/Debug-iphonesimulator/RearrangeNumber.app/images (21).jpg
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection68"Copy build/Debug-iphonesimulator/RearrangeNumber.app/images (21).jpgb47570cffdaab741^3aea70cffdaab741^---0#0#0#-19%DVTDocumentLocation2@163"file://localhost/Users/QA/source/sch-qa-core/automation/tools/R180NG-Mobile/setup/RearrangeNumber/build/Debug-iphonesimulator/RearrangeNumber.app/images%20(21).jpg000000000080d041^771"CpResource "RearrangeNumber/assets 2/images (21).jpg" "build/Debug-iphonesimulator/RearrangeNumber.app/images (21).jpg"    cd /Users/QA/source/sch-qa-core/automation/tools/R180NG-Mobile/setup/RearrangeNumber    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks "/Users/QA/source/sch-qa-core/automation/tools/R180NG-Mobile/setup/RearrangeNumber/RearrangeNumber/assets 2/images (21).jpg" /Users/QA/source/sch-qa-core/automation/tools/R180NG-Mobile/setup/RearrangeNumber/build/Debug-iphonesimulator/RearrangeNumber.app36"CFD26AB8-7F86-42FF-816B-65566802B876-
-
-CCpResource "RearrangeNumber/assets 2/images (22).jpg" "build/Debug-iphonesimulator/RearrangeNumber.app/images (22).jpg"
-s397082063.440161
-e397082063.442198
-r1
-xCpResource
-xRearrangeNumber/assets 2/images (22).jpg
-xbuild/Debug-iphonesimulator/RearrangeNumber.app/images (22).jpg
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection68"Copy build/Debug-iphonesimulator/RearrangeNumber.app/images (22).jpg94be70cffdaab741^983171cffdaab741^---0#0#0#-19%DVTDocumentLocation2@163"file://localhost/Users/QA/source/sch-qa-core/automation/tools/R180NG-Mobile/setup/RearrangeNumber/build/Debug-iphonesimulator/RearrangeNumber.app/images%20(22).jpg000000000080d041^771"CpResource "RearrangeNumber/assets 2/images (22).jpg" "build/Debug-iphonesimulator/RearrangeNumber.app/images (22).jpg"    cd /Users/QA/source/sch-qa-core/automation/tools/R180NG-Mobile/setup/RearrangeNumber    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks "/Users/QA/source/sch-qa-core/automation/tools/R180NG-Mobile/setup/RearrangeNumber/RearrangeNumber/assets 2/images (22).jpg" /Users/QA/source/sch-qa-core/automation/tools/R180NG-Mobile/setup/RearrangeNumber/build/Debug-iphonesimulator/RearrangeNumber.app36"E3B436B2-5A7B-4727-9354-088FC61F6E97-
-
-CCpResource "RearrangeNumber/assets 2/images (3).jpg" "build/Debug-iphonesimulator/RearrangeNumber.app/images (3).jpg"
-s397082063.440150
-e397082063.443328
-r1
-xCpResource
-xRearrangeNumber/assets 2/images (3).jpg
-xbuild/Debug-iphonesimulator/RearrangeNumber.app/images (3).jpg
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection67"Copy build/Debug-iphonesimulator/RearrangeNumber.app/images (3).jpgdbc170cffdaab741^357e71cffdaab741^---0#0#0#-19%DVTDocumentLocation2@162"file://localhost/Users/QA/source/sch-qa-core/automation/tools/R180NG-Mobile/setup/RearrangeNumber/build/Debug-iphonesimulator/RearrangeNumber.app/images%20(3).jpg000000000080d041^768"CpResource "RearrangeNumber/assets 2/images (3).jpg" "build/Debug-iphonesimulator/RearrangeNumber.app/images (3).jpg"    cd /Users/QA/source/sch-qa-core/automation/tools/R180NG-Mobile/setup/RearrangeNumber    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks "/Users/QA/source/sch-qa-core/automation/tools/R180NG-Mobile/setup/RearrangeNumber/RearrangeNumber/assets 2/images (3).jpg" /Users/QA/source/sch-qa-core/automation/tools/R180NG-Mobile/setup/RearrangeNumber/build/Debug-iphonesimulator/RearrangeNumber.app36"AFD1BC18-CF03-402B-8B0B-E3E495F2026E-
-
-CCpResource "RearrangeNumber/assets 2/images (4).jpg" "build/Debug-iphonesimulator/RearrangeNumber.app/images (4).jpg"
-s397082063.442388
-e397082063.444435
-r1
-xCpResource
-xRearrangeNumber/assets 2/images (4).jpg
-xbuild/Debug-iphonesimulator/RearrangeNumber.app/images (4).jpg
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection67"Copy build/Debug-iphonesimulator/RearrangeNumber.app/images (4).jpge75171cffdaab741^09c671cffdaab741^---0#0#0#-19%DVTDocumentLocation2@162"file://localhost/Users/QA/source/sch-qa-core/automation/tools/R180NG-Mobile/setup/RearrangeNumber/build/Debug-iphonesimulator/RearrangeNumber.app/images%20(4).jpg000000000080d041^768"CpResource "RearrangeNumber/assets 2/images (4).jpg" "build/Debug-iphonesimulator/RearrangeNumber.app/images (4).jpg"    cd /Users/QA/source/sch-qa-core/automation/tools/R180NG-Mobile/setup/RearrangeNumber    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks "/Users/QA/source/sch-qa-core/automation/tools/R180NG-Mobile/setup/RearrangeNumber/RearrangeNumber/assets 2/images (4).jpg" /Users/QA/source/sch-qa-core/automation/tools/R180NG-Mobile/setup/RearrangeNumber/build/Debug-iphonesimulator/RearrangeNumber.app36"1306F079-987B-4B32-845B-3D22B3A23E1A-
-
-CCpResource "RearrangeNumber/assets 2/images (5).jpg" "build/Debug-iphonesimulator/RearrangeNumber.app/images (5).jpg"
-s397082063.442411
-e397082063.445608
-r1
-xCpResource
-xRearrangeNumber/assets 2/images (5).jpg
-xbuild/Debug-iphonesimulator/RearrangeNumber.app/images (5).jpg
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection67"Copy build/Debug-iphonesimulator/RearrangeNumber.app/images (5).jpg265771cffdaab741^a11372cffdaab741^---0#0#0#-19%DVTDocumentLocation2@162"file://localhost/Users/QA/source/sch-qa-core/automation/tools/R180NG-Mobile/setup/RearrangeNumber/build/Debug-iphonesimulator/RearrangeNumber.app/images%20(5).jpg000000000080d041^768"CpResource "RearrangeNumber/assets 2/images (5).jpg" "build/Debug-iphonesimulator/RearrangeNumber.app/images (5).jpg"    cd /Users/QA/source/sch-qa-core/automation/tools/R180NG-Mobile/setup/RearrangeNumber    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks "/Users/QA/source/sch-qa-core/automation/tools/R180NG-Mobile/setup/RearrangeNumber/RearrangeNumber/assets 2/images (5).jpg" /Users/QA/source/sch-qa-core/automation/tools/R180NG-Mobile/setup/RearrangeNumber/build/Debug-iphonesimulator/RearrangeNumber.app36"A6DA2474-799D-4105-B1BC-861DD86B0D6D-
-
-CCpResource "RearrangeNumber/assets 2/images (6).jpg" "build/Debug-iphonesimulator/RearrangeNumber.app/images (6).jpg"
-s397082063.444596
-e397082063.446648
-r1
-xCpResource
-xRearrangeNumber/assets 2/images (6).jpg
-xbuild/Debug-iphonesimulator/RearrangeNumber.app/images (6).jpg
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection67"Copy build/Debug-iphonesimulator/RearrangeNumber.app/images (6).jpgb1e171cffdaab741^435772cffdaab741^---0#0#0#-19%DVTDocumentLocation2@162"file://localhost/Users/QA/source/sch-qa-core/automation/tools/R180NG-Mobile/setup/RearrangeNumber/build/Debug-iphonesimulator/RearrangeNumber.app/images%20(6).jpg000000000080d041^768"CpResource "RearrangeNumber/assets 2/images (6).jpg" "build/Debug-iphonesimulator/RearrangeNumber.app/images (6).jpg"    cd /Users/QA/source/sch-qa-core/automation/tools/R180NG-Mobile/setup/RearrangeNumber    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks "/Users/QA/source/sch-qa-core/automation/tools/R180NG-Mobile/setup/RearrangeNumber/RearrangeNumber/assets 2/images (6).jpg" /Users/QA/source/sch-qa-core/automation/tools/R180NG-Mobile/setup/RearrangeNumber/build/Debug-iphonesimulator/RearrangeNumber.app36"319B7016-BD8C-4F92-825B-F261D34B8358-
-
-CCpResource "RearrangeNumber/assets 2/images (7).jpg" "build/Debug-iphonesimulator/RearrangeNumber.app/images (7).jpg"
-s397082063.444600
-e397082063.447743
-r1
-xCpResource
-xRearrangeNumber/assets 2/images (7).jpg
-xbuild/Debug-iphonesimulator/RearrangeNumber.app/images (7).jpg
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection67"Copy build/Debug-iphonesimulator/RearrangeNumber.app/images (7).jpgb4e471cffdaab741^05a372cffdaab741^---0#0#0#-19%DVTDocumentLocation2@162"file://localhost/Users/QA/source/sch-qa-core/automation/tools/R180NG-Mobile/setup/RearrangeNumber/build/Debug-iphonesimulator/RearrangeNumber.app/images%20(7).jpg000000000080d041^768"CpResource "RearrangeNumber/assets 2/images (7).jpg" "build/Debug-iphonesimulator/RearrangeNumber.app/images (7).jpg"    cd /Users/QA/source/sch-qa-core/automation/tools/R180NG-Mobile/setup/RearrangeNumber    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks "/Users/QA/source/sch-qa-core/automation/tools/R180NG-Mobile/setup/RearrangeNumber/RearrangeNumber/assets 2/images (7).jpg" /Users/QA/source/sch-qa-core/automation/tools/R180NG-Mobile/setup/RearrangeNumber/build/Debug-iphonesimulator/RearrangeNumber.app36"7A9E6EB3-F350-419A-813F-2A4A2C9BC89A-
-
-CCpResource "RearrangeNumber/assets 2/images (8).png" "build/Debug-iphonesimulator/RearrangeNumber.app/images (8).png"
-s397082063.446819
-e397082063.449966
-r1
-xCpResource
-xRearrangeNumber/assets 2/images (8).png
-xbuild/Debug-iphonesimulator/RearrangeNumber.app/images (8).png
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection67"Copy build/Debug-iphonesimulator/RearrangeNumber.app/images (8).png797572cffdaab741^733073cffdaab741^---0#0#0#-19%DVTDocumentLocation2@162"file://localhost/Users/QA/source/sch-qa-core/automation/tools/R180NG-Mobile/setup/RearrangeNumber/build/Debug-iphonesimulator/RearrangeNumber.app/images%20(8).png000000000080d041^768"CpResource "RearrangeNumber/assets 2/images (8).png" "build/Debug-iphonesimulator/RearrangeNumber.app/images (8).png"    cd /Users/QA/source/sch-qa-core/automation/tools/R180NG-Mobile/setup/RearrangeNumber    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks "/Users/QA/source/sch-qa-core/automation/tools/R180NG-Mobile/setup/RearrangeNumber/RearrangeNumber/assets 2/images (8).png" /Users/QA/source/sch-qa-core/automation/tools/R180NG-Mobile/setup/RearrangeNumber/build/Debug-iphonesimulator/RearrangeNumber.app36"2C21CDBB-A222-441C-84CD-33CBA3E2F58E-
-
-CCpResource "RearrangeNumber/assets 2/images (9).jpg" "build/Debug-iphonesimulator/RearrangeNumber.app/images (9).jpg"
-s397082063.446807
-e397082063.448779
-r1
-xCpResource
-xRearrangeNumber/assets 2/images (9).jpg
-xbuild/Debug-iphonesimulator/RearrangeNumber.app/images (9).jpg
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection67"Copy build/Debug-iphonesimulator/RearrangeNumber.app/images (9).jpgde7172cffdaab741^fce272cffdaab741^---0#0#0#-19%DVTDocumentLocation2@162"file://localhost/Users/QA/source/sch-qa-core/automation/tools/R180NG-Mobile/setup/RearrangeNumber/build/Debug-iphonesimulator/RearrangeNumber.app/images%20(9).jpg000000000080d041^768"CpResource "RearrangeNumber/assets 2/images (9).jpg" "build/Debug-iphonesimulator/RearrangeNumber.app/images (9).jpg"    cd /Users/QA/source/sch-qa-core/automation/tools/R180NG-Mobile/setup/RearrangeNumber    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks "/Users/QA/source/sch-qa-core/automation/tools/R180NG-Mobile/setup/RearrangeNumber/RearrangeNumber/assets 2/images (9).jpg" /Users/QA/source/sch-qa-core/automation/tools/R180NG-Mobile/setup/RearrangeNumber/build/Debug-iphonesimulator/RearrangeNumber.app36"AC21F210-6D12-4FC9-9D51-4E8F26F20ACF-
-
-CCpResource "RearrangeNumber/assets 2/images.jpg" build/Debug-iphonesimulator/RearrangeNumber.app/images.jpg
-s397082063.448935
-e397082063.452160
-r1
-xCpResource
-xRearrangeNumber/assets 2/images.jpg
-xbuild/Debug-iphonesimulator/RearrangeNumber.app/images.jpg
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection63"Copy build/Debug-iphonesimulator/RearrangeNumber.app/images.jpg8e0373cffdaab741^90c073cffdaab741^---0#0#0#-19%DVTDocumentLocation2@156"file://localhost/Users/QA/source/sch-qa-core/automation/tools/R180NG-Mobile/setup/RearrangeNumber/build/Debug-iphonesimulator/RearrangeNumber.app/images.jpg000000000080d041^754"CpResource "RearrangeNumber/assets 2/images.jpg" build/Debug-iphonesimulator/RearrangeNumber.app/images.jpg    cd /Users/QA/source/sch-qa-core/automation/tools/R180NG-Mobile/setup/RearrangeNumber    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks "/Users/QA/source/sch-qa-core/automation/tools/R180NG-Mobile/setup/RearrangeNumber/RearrangeNumber/assets 2/images.jpg" /Users/QA/source/sch-qa-core/automation/tools/R180NG-Mobile/setup/RearrangeNumber/build/Debug-iphonesimulator/RearrangeNumber.app36"E280B502-C648-4D68-8042-CA9F7BADDE90-
-
-CCpResource "RearrangeNumber/assets 2/s44jr_word_eight.mp3" build/Debug-iphonesimulator/RearrangeNumber.app/s44jr_word_eight.mp3
-s397082063.448979
-e397082063.450991
-r1
-xCpResource
-xRearrangeNumber/assets 2/s44jr_word_eight.mp3
-xbuild/Debug-iphonesimulator/RearrangeNumber.app/s44jr_word_eight.mp3
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection73"Copy build/Debug-iphonesimulator/RearrangeNumber.app/s44jr_word_eight.mp3b80173cffdaab741^327573cffdaab741^---0#0#0#-19%DVTDocumentLocation2@166"file://localhost/Users/QA/source/sch-qa-core/automation/tools/R180NG-Mobile/setup/RearrangeNumber/build/Debug-iphonesimulator/RearrangeNumber.app/s44jr_word_eight.mp3000000000080d041^784"CpResource "RearrangeNumber/assets 2/s44jr_word_eight.mp3" build/Debug-iphonesimulator/RearrangeNumber.app/s44jr_word_eight.mp3    cd /Users/QA/source/sch-qa-core/automation/tools/R180NG-Mobile/setup/RearrangeNumber    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks "/Users/QA/source/sch-qa-core/automation/tools/R180NG-Mobile/setup/RearrangeNumber/RearrangeNumber/assets 2/s44jr_word_eight.mp3" /Users/QA/source/sch-qa-core/automation/tools/R180NG-Mobile/setup/RearrangeNumber/build/Debug-iphonesimulator/RearrangeNumber.app36"3D5A95E4-9FA0-4B6B-9F3A-FFE32720F310-
-
-CCpResource "RearrangeNumber/assets 2/s44jr_word_five.mp3" build/Debug-iphonesimulator/RearrangeNumber.app/s44jr_word_five.mp3
-s397082063.451177
-e397082063.453183
-r1
-xCpResource
-xRearrangeNumber/assets 2/s44jr_word_five.mp3
-xbuild/Debug-iphonesimulator/RearrangeNumber.app/s44jr_word_five.mp3
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection72"Copy build/Debug-iphonesimulator/RearrangeNumber.app/s44jr_word_five.mp3c59173cffdaab741^210474cffdaab741^---0#0#0#-19%DVTDocumentLocation2@165"file://localhost/Users/QA/source/sch-qa-core/automation/tools/R180NG-Mobile/setup/RearrangeNumber/build/Debug-iphonesimulator/RearrangeNumber.app/s44jr_word_five.mp3000000000080d041^781"CpResource "RearrangeNumber/assets 2/s44jr_word_five.mp3" build/Debug-iphonesimulator/RearrangeNumber.app/s44jr_word_five.mp3    cd /Users/QA/source/sch-qa-core/automation/tools/R180NG-Mobile/setup/RearrangeNumber    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks "/Users/QA/source/sch-qa-core/automation/tools/R180NG-Mobile/setup/RearrangeNumber/RearrangeNumber/assets 2/s44jr_word_five.mp3" /Users/QA/source/sch-qa-core/automation/tools/R180NG-Mobile/setup/RearrangeNumber/build/Debug-iphonesimulator/RearrangeNumber.app36"F4F7102B-52C7-4631-B58E-9E635C1676CB-
-
-CCpResource "RearrangeNumber/assets 2/s44jr_word_four.mp3" build/Debug-iphonesimulator/RearrangeNumber.app/s44jr_word_four.mp3
-s397082063.451166
-e397082063.454380
-r1
-xCpResource
-xRearrangeNumber/assets 2/s44jr_word_four.mp3
-xbuild/Debug-iphonesimulator/RearrangeNumber.app/s44jr_word_four.mp3
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection72"Copy build/Debug-iphonesimulator/RearrangeNumber.app/s44jr_word_four.mp3579373cffdaab741^a45274cffdaab741^---0#0#0#-19%DVTDocumentLocation2@165"file://localhost/Users/QA/source/sch-qa-core/automation/tools/R180NG-Mobile/setup/RearrangeNumber/build/Debug-iphonesimulator/RearrangeNumber.app/s44jr_word_four.mp3000000000080d041^781"CpResource "RearrangeNumber/assets 2/s44jr_word_four.mp3" build/Debug-iphonesimulator/RearrangeNumber.app/s44jr_word_four.mp3    cd /Users/QA/source/sch-qa-core/automation/tools/R180NG-Mobile/setup/RearrangeNumber    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks "/Users/QA/source/sch-qa-core/automation/tools/R180NG-Mobile/setup/RearrangeNumber/RearrangeNumber/assets 2/s44jr_word_four.mp3" /Users/QA/source/sch-qa-core/automation/tools/R180NG-Mobile/setup/RearrangeNumber/build/Debug-iphonesimulator/RearrangeNumber.app36"9166F998-92A2-468E-BAC7-65476BD2065D-
-
-CCpResource "RearrangeNumber/assets 2/s44jr_word_nine.mp3" build/Debug-iphonesimulator/RearrangeNumber.app/s44jr_word_nine.mp3
-s397082063.453362
-e397082063.456657
-r1
-xCpResource
-xRearrangeNumber/assets 2/s44jr_word_nine.mp3
-xbuild/Debug-iphonesimulator/RearrangeNumber.app/s44jr_word_nine.mp3
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection72"Copy build/Debug-iphonesimulator/RearrangeNumber.app/s44jr_word_nine.mp3fb2374cffdaab741^25e774cffdaab741^---0#0#0#-19%DVTDocumentLocation2@165"file://localhost/Users/QA/source/sch-qa-core/automation/tools/R180NG-Mobile/setup/RearrangeNumber/build/Debug-iphonesimulator/RearrangeNumber.app/s44jr_word_nine.mp3000000000080d041^781"CpResource "RearrangeNumber/assets 2/s44jr_word_nine.mp3" build/Debug-iphonesimulator/RearrangeNumber.app/s44jr_word_nine.mp3    cd /Users/QA/source/sch-qa-core/automation/tools/R180NG-Mobile/setup/RearrangeNumber    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks "/Users/QA/source/sch-qa-core/automation/tools/R180NG-Mobile/setup/RearrangeNumber/RearrangeNumber/assets 2/s44jr_word_nine.mp3" /Users/QA/source/sch-qa-core/automation/tools/R180NG-Mobile/setup/RearrangeNumber/build/Debug-iphonesimulator/RearrangeNumber.app36"6DC69E75-5B50-4054-BE5E-7D37DD07D2C1-
-
-CCpResource "RearrangeNumber/assets 2/s44jr_word_nineteen.mp3" build/Debug-iphonesimulator/RearrangeNumber.app/s44jr_word_nineteen.mp3
-s397082063.453366
-e397082063.455535
-r1
-xCpResource
-xRearrangeNumber/assets 2/s44jr_word_nineteen.mp3
-xbuild/Debug-iphonesimulator/RearrangeNumber.app/s44jr_word_nineteen.mp3
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection76"Copy build/Debug-iphonesimulator/RearrangeNumber.app/s44jr_word_nineteen.mp3b42074cffdaab741^519f74cffdaab741^---0#0#0#-19%DVTDocumentLocation2@169"file://localhost/Users/QA/source/sch-qa-core/automation/tools/R180NG-Mobile/setup/RearrangeNumber/build/Debug-iphonesimulator/RearrangeNumber.app/s44jr_word_nineteen.mp3000000000080d041^793"CpResource "RearrangeNumber/assets 2/s44jr_word_nineteen.mp3" build/Debug-iphonesimulator/RearrangeNumber.app/s44jr_word_nineteen.mp3    cd /Users/QA/source/sch-qa-core/automation/tools/R180NG-Mobile/setup/RearrangeNumber    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks "/Users/QA/source/sch-qa-core/automation/tools/R180NG-Mobile/setup/RearrangeNumber/RearrangeNumber/assets 2/s44jr_word_nineteen.mp3" /Users/QA/source/sch-qa-core/automation/tools/R180NG-Mobile/setup/RearrangeNumber/build/Debug-iphonesimulator/RearrangeNumber.app36"024D1705-A68E-4C71-B268-2B1D07FAED24-
-
-CCpResource "RearrangeNumber/assets 2/s44jr_word_ninety.mp3" build/Debug-iphonesimulator/RearrangeNumber.app/s44jr_word_ninety.mp3
-s397082063.455537
-e397082063.458234
-r1
-xCpResource
-xRearrangeNumber/assets 2/s44jr_word_ninety.mp3
-xbuild/Debug-iphonesimulator/RearrangeNumber.app/s44jr_word_ninety.mp3
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection74"Copy build/Debug-iphonesimulator/RearrangeNumber.app/s44jr_word_ninety.mp3f2b474cffdaab741^6e4e75cffdaab741^---0#0#0#-19%DVTDocumentLocation2@167"file://localhost/Users/QA/source/sch-qa-core/automation/tools/R180NG-Mobile/setup/RearrangeNumber/build/Debug-iphonesimulator/RearrangeNumber.app/s44jr_word_ninety.mp3000000000080d041^787"CpResource "RearrangeNumber/assets 2/s44jr_word_ninety.mp3" build/Debug-iphonesimulator/RearrangeNumber.app/s44jr_word_ninety.mp3    cd /Users/QA/source/sch-qa-core/automation/tools/R180NG-Mobile/setup/RearrangeNumber    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks "/Users/QA/source/sch-qa-core/automation/tools/R180NG-Mobile/setup/RearrangeNumber/RearrangeNumber/assets 2/s44jr_word_ninety.mp3" /Users/QA/source/sch-qa-core/automation/tools/R180NG-Mobile/setup/RearrangeNumber/build/Debug-iphonesimulator/RearrangeNumber.app36"E57665E5-76E9-4F0A-96AC-319D58D86689-
-
-CCpResource "RearrangeNumber/assets 2/s44jr_word_one.mp3" build/Debug-iphonesimulator/RearrangeNumber.app/s44jr_word_one.mp3
-s397082063.456895
-e397082063.460218
-r1
-xCpResource
-xRearrangeNumber/assets 2/s44jr_word_one.mp3
-xbuild/Debug-iphonesimulator/RearrangeNumber.app/s44jr_word_one.mp3
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection71"Copy build/Debug-iphonesimulator/RearrangeNumber.app/s44jr_word_one.mp30a1075cffdaab741^70d175cffdaab741^---0#0#0#-19%DVTDocumentLocation2@164"file://localhost/Users/QA/source/sch-qa-core/automation/tools/R180NG-Mobile/setup/RearrangeNumber/build/Debug-iphonesimulator/RearrangeNumber.app/s44jr_word_one.mp3000000000080d041^778"CpResource "RearrangeNumber/assets 2/s44jr_word_one.mp3" build/Debug-iphonesimulator/RearrangeNumber.app/s44jr_word_one.mp3    cd /Users/QA/source/sch-qa-core/automation/tools/R180NG-Mobile/setup/RearrangeNumber    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks "/Users/QA/source/sch-qa-core/automation/tools/R180NG-Mobile/setup/RearrangeNumber/RearrangeNumber/assets 2/s44jr_word_one.mp3" /Users/QA/source/sch-qa-core/automation/tools/R180NG-Mobile/setup/RearrangeNumber/build/Debug-iphonesimulator/RearrangeNumber.app36"96A51866-A543-4742-A5C8-C4DDD1065A36-
-
-CCpResource "RearrangeNumber/assets 2/s44jr_word_seven.mp3" build/Debug-iphonesimulator/RearrangeNumber.app/s44jr_word_seven.mp3
-s397082063.456883
-e397082063.459049
-r1
-xCpResource
-xRearrangeNumber/assets 2/s44jr_word_seven.mp3
-xbuild/Debug-iphonesimulator/RearrangeNumber.app/s44jr_word_seven.mp3
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection73"Copy build/Debug-iphonesimulator/RearrangeNumber.app/s44jr_word_seven.mp3060d75cffdaab741^fd8675cffdaab741^---0#0#0#-19%DVTDocumentLocation2@166"file://localhost/Users/QA/source/sch-qa-core/automation/tools/R180NG-Mobile/setup/RearrangeNumber/build/Debug-iphonesimulator/RearrangeNumber.app/s44jr_word_seven.mp3000000000080d041^784"CpResource "RearrangeNumber/assets 2/s44jr_word_seven.mp3" build/Debug-iphonesimulator/RearrangeNumber.app/s44jr_word_seven.mp3    cd /Users/QA/source/sch-qa-core/automation/tools/R180NG-Mobile/setup/RearrangeNumber    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks "/Users/QA/source/sch-qa-core/automation/tools/R180NG-Mobile/setup/RearrangeNumber/RearrangeNumber/assets 2/s44jr_word_seven.mp3" /Users/QA/source/sch-qa-core/automation/tools/R180NG-Mobile/setup/RearrangeNumber/build/Debug-iphonesimulator/RearrangeNumber.app36"06376C5F-FD3D-4CE4-BF08-DEDD64BF4047-
-
-CCpResource "RearrangeNumber/assets 2/s44jr_word_six.mp3" build/Debug-iphonesimulator/RearrangeNumber.app/s44jr_word_six.mp3
-s397082063.459460
-e397082063.462712
-r1
-xCpResource
-xRearrangeNumber/assets 2/s44jr_word_six.mp3
-xbuild/Debug-iphonesimulator/RearrangeNumber.app/s44jr_word_six.mp3
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection71"Copy build/Debug-iphonesimulator/RearrangeNumber.app/s44jr_word_six.mp3a9bc75cffdaab741^f77376cffdaab741^---0#0#0#-19%DVTDocumentLocation2@164"file://localhost/Users/QA/source/sch-qa-core/automation/tools/R180NG-Mobile/setup/RearrangeNumber/build/Debug-iphonesimulator/RearrangeNumber.app/s44jr_word_six.mp3000000000080d041^778"CpResource "RearrangeNumber/assets 2/s44jr_word_six.mp3" build/Debug-iphonesimulator/RearrangeNumber.app/s44jr_word_six.mp3    cd /Users/QA/source/sch-qa-core/automation/tools/R180NG-Mobile/setup/RearrangeNumber    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks "/Users/QA/source/sch-qa-core/automation/tools/R180NG-Mobile/setup/RearrangeNumber/RearrangeNumber/assets 2/s44jr_word_six.mp3" /Users/QA/source/sch-qa-core/automation/tools/R180NG-Mobile/setup/RearrangeNumber/build/Debug-iphonesimulator/RearrangeNumber.app36"312D7E36-3122-43FC-8997-F28D402A61BB-
-
-CCpResource "RearrangeNumber/assets 2/s44jr_word_sixteen.mp3" build/Debug-iphonesimulator/RearrangeNumber.app/s44jr_word_sixteen.mp3
-s397082063.459466
-e397082063.461680
-r1
-xCpResource
-xRearrangeNumber/assets 2/s44jr_word_sixteen.mp3
-xbuild/Debug-iphonesimulator/RearrangeNumber.app/s44jr_word_sixteen.mp3
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection75"Copy build/Debug-iphonesimulator/RearrangeNumber.app/s44jr_word_sixteen.mp3a6b575cffdaab741^e83176cffdaab741^---0#0#0#-19%DVTDocumentLocation2@168"file://localhost/Users/QA/source/sch-qa-core/automation/tools/R180NG-Mobile/setup/RearrangeNumber/build/Debug-iphonesimulator/RearrangeNumber.app/s44jr_word_sixteen.mp3000000000080d041^790"CpResource "RearrangeNumber/assets 2/s44jr_word_sixteen.mp3" build/Debug-iphonesimulator/RearrangeNumber.app/s44jr_word_sixteen.mp3    cd /Users/QA/source/sch-qa-core/automation/tools/R180NG-Mobile/setup/RearrangeNumber    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks "/Users/QA/source/sch-qa-core/automation/tools/R180NG-Mobile/setup/RearrangeNumber/RearrangeNumber/assets 2/s44jr_word_sixteen.mp3" /Users/QA/source/sch-qa-core/automation/tools/R180NG-Mobile/setup/RearrangeNumber/build/Debug-iphonesimulator/RearrangeNumber.app36"BE20AD67-4380-4EEB-B290-A7DFBED8BBB2-
-
-CCpResource "RearrangeNumber/assets 2/s44jr_word_sixty.mp3" build/Debug-iphonesimulator/RearrangeNumber.app/s44jr_word_sixty.mp3
-s397082063.461401
-e397082063.463852
-r1
-xCpResource
-xRearrangeNumber/assets 2/s44jr_word_sixty.mp3
-xbuild/Debug-iphonesimulator/RearrangeNumber.app/s44jr_word_sixty.mp3
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection73"Copy build/Debug-iphonesimulator/RearrangeNumber.app/s44jr_word_sixty.mp3863876cffdaab741^59be76cffdaab741^---0#0#0#-19%DVTDocumentLocation2@166"file://localhost/Users/QA/source/sch-qa-core/automation/tools/R180NG-Mobile/setup/RearrangeNumber/build/Debug-iphonesimulator/RearrangeNumber.app/s44jr_word_sixty.mp3000000000080d041^784"CpResource "RearrangeNumber/assets 2/s44jr_word_sixty.mp3" build/Debug-iphonesimulator/RearrangeNumber.app/s44jr_word_sixty.mp3    cd /Users/QA/source/sch-qa-core/automation/tools/R180NG-Mobile/setup/RearrangeNumber    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks "/Users/QA/source/sch-qa-core/automation/tools/R180NG-Mobile/setup/RearrangeNumber/RearrangeNumber/assets 2/s44jr_word_sixty.mp3" /Users/QA/source/sch-qa-core/automation/tools/R180NG-Mobile/setup/RearrangeNumber/build/Debug-iphonesimulator/RearrangeNumber.app36"9C2325DF-34F1-4B36-B0E2-184CD7B0FABF-
-
-CCpResource "RearrangeNumber/assets 2/s44jr_word_ten.mp3" build/Debug-iphonesimulator/RearrangeNumber.app/s44jr_word_ten.mp3
-s397082063.462823
-e397082063.464935
-r1
-xCpResource
-xRearrangeNumber/assets 2/s44jr_word_ten.mp3
-xbuild/Debug-iphonesimulator/RearrangeNumber.app/s44jr_word_ten.mp3
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection71"Copy build/Debug-iphonesimulator/RearrangeNumber.app/s44jr_word_ten.mp33f8e76cffdaab741^ea0577cffdaab741^---0#0#0#-19%DVTDocumentLocation2@164"file://localhost/Users/QA/source/sch-qa-core/automation/tools/R180NG-Mobile/setup/RearrangeNumber/build/Debug-iphonesimulator/RearrangeNumber.app/s44jr_word_ten.mp3000000000080d041^778"CpResource "RearrangeNumber/assets 2/s44jr_word_ten.mp3" build/Debug-iphonesimulator/RearrangeNumber.app/s44jr_word_ten.mp3    cd /Users/QA/source/sch-qa-core/automation/tools/R180NG-Mobile/setup/RearrangeNumber    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks "/Users/QA/source/sch-qa-core/automation/tools/R180NG-Mobile/setup/RearrangeNumber/RearrangeNumber/assets 2/s44jr_word_ten.mp3" /Users/QA/source/sch-qa-core/automation/tools/R180NG-Mobile/setup/RearrangeNumber/build/Debug-iphonesimulator/RearrangeNumber.app36"10EA6246-E9B3-4528-B954-BB9C25BD02A5-
-
-CCpResource "RearrangeNumber/assets 2/s44jr_word_thirteen.mp3" build/Debug-iphonesimulator/RearrangeNumber.app/s44jr_word_thirteen.mp3
-s397082063.463983
-e397082063.466099
-r1
-xCpResource
-xRearrangeNumber/assets 2/s44jr_word_thirteen.mp3
-xbuild/Debug-iphonesimulator/RearrangeNumber.app/s44jr_word_thirteen.mp3
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection76"Copy build/Debug-iphonesimulator/RearrangeNumber.app/s44jr_word_thirteen.mp3ecda76cffdaab741^bd5177cffdaab741^---0#0#0#-19%DVTDocumentLocation2@169"file://localhost/Users/QA/source/sch-qa-core/automation/tools/R180NG-Mobile/setup/RearrangeNumber/build/Debug-iphonesimulator/RearrangeNumber.app/s44jr_word_thirteen.mp3000000000080d041^793"CpResource "RearrangeNumber/assets 2/s44jr_word_thirteen.mp3" build/Debug-iphonesimulator/RearrangeNumber.app/s44jr_word_thirteen.mp3    cd /Users/QA/source/sch-qa-core/automation/tools/R180NG-Mobile/setup/RearrangeNumber    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks "/Users/QA/source/sch-qa-core/automation/tools/R180NG-Mobile/setup/RearrangeNumber/RearrangeNumber/assets 2/s44jr_word_thirteen.mp3" /Users/QA/source/sch-qa-core/automation/tools/R180NG-Mobile/setup/RearrangeNumber/build/Debug-iphonesimulator/RearrangeNumber.app36"27333A45-A671-4E70-AFA8-9F4AFE3A5CA0-
-
-CCpResource "RearrangeNumber/assets 2/s44jr_word_thirty.mp3" build/Debug-iphonesimulator/RearrangeNumber.app/s44jr_word_thirty.mp3
-s397082063.465111
-e397082063.467205
-r1
-xCpResource
-xRearrangeNumber/assets 2/s44jr_word_thirty.mp3
-xbuild/Debug-iphonesimulator/RearrangeNumber.app/s44jr_word_thirty.mp3
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection74"Copy build/Debug-iphonesimulator/RearrangeNumber.app/s44jr_word_thirty.mp3202877cffdaab741^969877cffdaab741^---0#0#0#-19%DVTDocumentLocation2@167"file://localhost/Users/QA/source/sch-qa-core/automation/tools/R180NG-Mobile/setup/RearrangeNumber/build/Debug-iphonesimulator/RearrangeNumber.app/s44jr_word_thirty.mp3000000000080d041^787"CpResource "RearrangeNumber/assets 2/s44jr_word_thirty.mp3" build/Debug-iphonesimulator/RearrangeNumber.app/s44jr_word_thirty.mp3    cd /Users/QA/source/sch-qa-core/automation/tools/R180NG-Mobile/setup/RearrangeNumber    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks "/Users/QA/source/sch-qa-core/automation/tools/R180NG-Mobile/setup/RearrangeNumber/RearrangeNumber/assets 2/s44jr_word_thirty.mp3" /Users/QA/source/sch-qa-core/automation/tools/R180NG-Mobile/setup/RearrangeNumber/build/Debug-iphonesimulator/RearrangeNumber.app36"5C1B78B7-A3DF-414C-8C1C-5D80949E858E-
-
-CCpResource "RearrangeNumber/assets 2/s44jr_word_three.mp3" build/Debug-iphonesimulator/RearrangeNumber.app/s44jr_word_three.mp3
-s397082063.465123
-e397082063.476344
-r1
-xCpResource
-xRearrangeNumber/assets 2/s44jr_word_three.mp3
-xbuild/Debug-iphonesimulator/RearrangeNumber.app/s44jr_word_three.mp3
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection73"Copy build/Debug-iphonesimulator/RearrangeNumber.app/s44jr_word_three.mp3e12677cffdaab741^33fe79cffdaab741^---0#0#0#-19%DVTDocumentLocation2@166"file://localhost/Users/QA/source/sch-qa-core/automation/tools/R180NG-Mobile/setup/RearrangeNumber/build/Debug-iphonesimulator/RearrangeNumber.app/s44jr_word_three.mp3000000000080d041^784"CpResource "RearrangeNumber/assets 2/s44jr_word_three.mp3" build/Debug-iphonesimulator/RearrangeNumber.app/s44jr_word_three.mp3    cd /Users/QA/source/sch-qa-core/automation/tools/R180NG-Mobile/setup/RearrangeNumber    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks "/Users/QA/source/sch-qa-core/automation/tools/R180NG-Mobile/setup/RearrangeNumber/RearrangeNumber/assets 2/s44jr_word_three.mp3" /Users/QA/source/sch-qa-core/automation/tools/R180NG-Mobile/setup/RearrangeNumber/build/Debug-iphonesimulator/RearrangeNumber.app36"4F59F169-AEB3-458C-BF98-B2D6CAC5FCE7-
-
-CCpResource "RearrangeNumber/assets 2/s44jr_word_two.mp3" build/Debug-iphonesimulator/RearrangeNumber.app/s44jr_word_two.mp3
-s397082063.470463
-e397082063.476530
-r1
-xCpResource
-xRearrangeNumber/assets 2/s44jr_word_two.mp3
-xbuild/Debug-iphonesimulator/RearrangeNumber.app/s44jr_word_two.mp3
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection71"Copy build/Debug-iphonesimulator/RearrangeNumber.app/s44jr_word_two.mp31b8578cffdaab741^de017acffdaab741^---0#0#0#-19%DVTDocumentLocation2@164"file://localhost/Users/QA/source/sch-qa-core/automation/tools/R180NG-Mobile/setup/RearrangeNumber/build/Debug-iphonesimulator/RearrangeNumber.app/s44jr_word_two.mp3000000000080d041^778"CpResource "RearrangeNumber/assets 2/s44jr_word_two.mp3" build/Debug-iphonesimulator/RearrangeNumber.app/s44jr_word_two.mp3    cd /Users/QA/source/sch-qa-core/automation/tools/R180NG-Mobile/setup/RearrangeNumber    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks "/Users/QA/source/sch-qa-core/automation/tools/R180NG-Mobile/setup/RearrangeNumber/RearrangeNumber/assets 2/s44jr_word_two.mp3" /Users/QA/source/sch-qa-core/automation/tools/R180NG-Mobile/setup/RearrangeNumber/build/Debug-iphonesimulator/RearrangeNumber.app36"89CCB1B8-F710-4562-853E-A8494300CC45-
-
-CCpResource RearrangeNumber/Default-568h@2x.png build/Debug-iphonesimulator/RearrangeNumber.app/Default-568h@2x.png
-s397082063.364189
-e397082063.368889
-r1
-xCpResource
-xRearrangeNumber/Default-568h@2x.png
-xbuild/Debug-iphonesimulator/RearrangeNumber.app/Default-568h@2x.png
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection72"Copy build/Debug-iphonesimulator/RearrangeNumber.app/Default-568h@2x.png904e5dcffdaab741^826f5ecffdaab741^---0#0#0#-19%DVTDocumentLocation2@165"file://localhost/Users/QA/source/sch-qa-core/automation/tools/R180NG-Mobile/setup/RearrangeNumber/build/Debug-iphonesimulator/RearrangeNumber.app/Default-568h@2x.png000000000080d041^765"CpResource "RearrangeNumber/Default-568h@2x.png" "build/Debug-iphonesimulator/RearrangeNumber.app/Default-568h@2x.png"    cd /Users/QA/source/sch-qa-core/automation/tools/R180NG-Mobile/setup/RearrangeNumber    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks "/Users/QA/source/sch-qa-core/automation/tools/R180NG-Mobile/setup/RearrangeNumber/RearrangeNumber/Default-568h@2x.png" /Users/QA/source/sch-qa-core/automation/tools/R180NG-Mobile/setup/RearrangeNumber/build/Debug-iphonesimulator/RearrangeNumber.app36"838A79F0-3AAA-4457-B14B-BD0451955775-
-
-CCpResource RearrangeNumber/Default.png build/Debug-iphonesimulator/RearrangeNumber.app/Default.png
-s397082063.363995
-e397082063.367634
-r1
-xCpResource
-xRearrangeNumber/Default.png
-xbuild/Debug-iphonesimulator/RearrangeNumber.app/Default.png
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection64"Copy build/Debug-iphonesimulator/RearrangeNumber.app/Default.png164b5dcffdaab741^a81d5ecffdaab741^---0#0#0#-19%DVTDocumentLocation2@157"file://localhost/Users/QA/source/sch-qa-core/automation/tools/R180NG-Mobile/setup/RearrangeNumber/build/Debug-iphonesimulator/RearrangeNumber.app/Default.png000000000080d041^735"CpResource RearrangeNumber/Default.png build/Debug-iphonesimulator/RearrangeNumber.app/Default.png    cd /Users/QA/source/sch-qa-core/automation/tools/R180NG-Mobile/setup/RearrangeNumber    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/QA/source/sch-qa-core/automation/tools/R180NG-Mobile/setup/RearrangeNumber/RearrangeNumber/Default.png /Users/QA/source/sch-qa-core/automation/tools/R180NG-Mobile/setup/RearrangeNumber/build/Debug-iphonesimulator/RearrangeNumber.app36"A2070279-37F1-4B34-BBB5-EE39E090DDA5-
-
-CCpResource RearrangeNumber/Default@2x.png build/Debug-iphonesimulator/RearrangeNumber.app/Default@2x.png
-s397082063.363988
-e397082063.370052
-r1
-xCpResource
-xRearrangeNumber/Default@2x.png
-xbuild/Debug-iphonesimulator/RearrangeNumber.app/Default@2x.png
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection67"Copy build/Debug-iphonesimulator/RearrangeNumber.app/Default@2x.pngf54a5dcffdaab741^babb5ecffdaab741^---0#0#0#-19%DVTDocumentLocation2@160"file://localhost/Users/QA/source/sch-qa-core/automation/tools/R180NG-Mobile/setup/RearrangeNumber/build/Debug-iphonesimulator/RearrangeNumber.app/Default@2x.png000000000080d041^750"CpResource "RearrangeNumber/Default@2x.png" "build/Debug-iphonesimulator/RearrangeNumber.app/Default@2x.png"    cd /Users/QA/source/sch-qa-core/automation/tools/R180NG-Mobile/setup/RearrangeNumber    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks "/Users/QA/source/sch-qa-core/automation/tools/R180NG-Mobile/setup/RearrangeNumber/RearrangeNumber/Default@2x.png" /Users/QA/source/sch-qa-core/automation/tools/R180NG-Mobile/setup/RearrangeNumber/build/Debug-iphonesimulator/RearrangeNumber.app36"656FAF07-4B5C-4F23-BED6-65E6372CB243-
-
-CCpResource RearrangeNumber/assets/animation/frame-1.png build/Debug-iphonesimulator/RearrangeNumber.app/frame-1.png
-s397082063.368389
-e397082063.372562
-r1
-xCpResource
-xRearrangeNumber/assets/animation/frame-1.png
-xbuild/Debug-iphonesimulator/RearrangeNumber.app/frame-1.png
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection64"Copy build/Debug-iphonesimulator/RearrangeNumber.app/frame-1.png56625ecffdaab741^5b605fcffdaab741^---0#0#0#-19%DVTDocumentLocation2@157"file://localhost/Users/QA/source/sch-qa-core/automation/tools/R180NG-Mobile/setup/RearrangeNumber/build/Debug-iphonesimulator/RearrangeNumber.app/frame-1.png000000000080d041^769"CpResource RearrangeNumber/assets/animation/frame-1.png build/Debug-iphonesimulator/RearrangeNumber.app/frame-1.png    cd /Users/QA/source/sch-qa-core/automation/tools/R180NG-Mobile/setup/RearrangeNumber    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/QA/source/sch-qa-core/automation/tools/R180NG-Mobile/setup/RearrangeNumber/RearrangeNumber/assets/animation/frame-1.png /Users/QA/source/sch-qa-core/automation/tools/R180NG-Mobile/setup/RearrangeNumber/build/Debug-iphonesimulator/RearrangeNumber.app36"247639B4-BFA7-47D5-B538-9681EEBD7544-
-
-CCpResource RearrangeNumber/assets/animation/frame-10.png build/Debug-iphonesimulator/RearrangeNumber.app/frame-10.png
-s397082063.370065
-e397082063.373567
-r1
-xCpResource
-xRearrangeNumber/assets/animation/frame-10.png
-xbuild/Debug-iphonesimulator/RearrangeNumber.app/frame-10.png
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection65"Copy build/Debug-iphonesimulator/RearrangeNumber.app/frame-10.png9ace5ecffdaab741^6aa25fcffdaab741^---0#0#0#-19%DVTDocumentLocation2@158"file://localhost/Users/QA/source/sch-qa-core/automation/tools/R180NG-Mobile/setup/RearrangeNumber/build/Debug-iphonesimulator/RearrangeNumber.app/frame-10.png000000000080d041^772"CpResource RearrangeNumber/assets/animation/frame-10.png build/Debug-iphonesimulator/RearrangeNumber.app/frame-10.png    cd /Users/QA/source/sch-qa-core/automation/tools/R180NG-Mobile/setup/RearrangeNumber    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/QA/source/sch-qa-core/automation/tools/R180NG-Mobile/setup/RearrangeNumber/RearrangeNumber/assets/animation/frame-10.png /Users/QA/source/sch-qa-core/automation/tools/R180NG-Mobile/setup/RearrangeNumber/build/Debug-iphonesimulator/RearrangeNumber.app36"B27F302C-8221-4941-BF8A-6CB9A4244487-
-
-CCpResource RearrangeNumber/assets/animation/frame-11.png build/Debug-iphonesimulator/RearrangeNumber.app/frame-11.png
-s397082063.371244
-e397082063.374807
-r1
-xCpResource
-xRearrangeNumber/assets/animation/frame-11.png
-xbuild/Debug-iphonesimulator/RearrangeNumber.app/frame-11.png
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection65"Copy build/Debug-iphonesimulator/RearrangeNumber.app/frame-11.pngf41a5fcffdaab741^f5f25fcffdaab741^---0#0#0#-19%DVTDocumentLocation2@158"file://localhost/Users/QA/source/sch-qa-core/automation/tools/R180NG-Mobile/setup/RearrangeNumber/build/Debug-iphonesimulator/RearrangeNumber.app/frame-11.png000000000080d041^772"CpResource RearrangeNumber/assets/animation/frame-11.png build/Debug-iphonesimulator/RearrangeNumber.app/frame-11.png    cd /Users/QA/source/sch-qa-core/automation/tools/R180NG-Mobile/setup/RearrangeNumber    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/QA/source/sch-qa-core/automation/tools/R180NG-Mobile/setup/RearrangeNumber/RearrangeNumber/assets/animation/frame-11.png /Users/QA/source/sch-qa-core/automation/tools/R180NG-Mobile/setup/RearrangeNumber/build/Debug-iphonesimulator/RearrangeNumber.app36"74653F30-D50A-48A5-B70E-40888ED2A796-
-
-CCpResource RearrangeNumber/assets/animation/frame-12.png build/Debug-iphonesimulator/RearrangeNumber.app/frame-12.png
-s397082063.373740
-e397082063.375824
-r1
-xCpResource
-xRearrangeNumber/assets/animation/frame-12.png
-xbuild/Debug-iphonesimulator/RearrangeNumber.app/frame-12.png
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection65"Copy build/Debug-iphonesimulator/RearrangeNumber.app/frame-12.pnga9be5fcffdaab741^643e60cffdaab741^---0#0#0#-19%DVTDocumentLocation2@158"file://localhost/Users/QA/source/sch-qa-core/automation/tools/R180NG-Mobile/setup/RearrangeNumber/build/Debug-iphonesimulator/RearrangeNumber.app/frame-12.png000000000080d041^772"CpResource RearrangeNumber/assets/animation/frame-12.png build/Debug-iphonesimulator/RearrangeNumber.app/frame-12.png    cd /Users/QA/source/sch-qa-core/automation/tools/R180NG-Mobile/setup/RearrangeNumber    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/QA/source/sch-qa-core/automation/tools/R180NG-Mobile/setup/RearrangeNumber/RearrangeNumber/assets/animation/frame-12.png /Users/QA/source/sch-qa-core/automation/tools/R180NG-Mobile/setup/RearrangeNumber/build/Debug-iphonesimulator/RearrangeNumber.app36"EF9B11A9-CFFE-4DFA-B334-ADF06CD1BB28-
-
-CCpResource RearrangeNumber/assets/animation/frame-13.png build/Debug-iphonesimulator/RearrangeNumber.app/frame-13.png
-s397082063.373743
-e397082063.382242
-r1
-xCpResource
-xRearrangeNumber/assets/animation/frame-13.png
-xbuild/Debug-iphonesimulator/RearrangeNumber.app/frame-13.png
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection65"Copy build/Debug-iphonesimulator/RearrangeNumber.app/frame-13.png55c25fcffdaab741^d8d861cffdaab741^---0#0#0#-19%DVTDocumentLocation2@158"file://localhost/Users/QA/source/sch-qa-core/automation/tools/R180NG-Mobile/setup/RearrangeNumber/build/Debug-iphonesimulator/RearrangeNumber.app/frame-13.png000000000080d041^772"CpResource RearrangeNumber/assets/animation/frame-13.png build/Debug-iphonesimulator/RearrangeNumber.app/frame-13.png    cd /Users/QA/source/sch-qa-core/automation/tools/R180NG-Mobile/setup/RearrangeNumber    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/QA/source/sch-qa-core/automation/tools/R180NG-Mobile/setup/RearrangeNumber/RearrangeNumber/assets/animation/frame-13.png /Users/QA/source/sch-qa-core/automation/tools/R180NG-Mobile/setup/RearrangeNumber/build/Debug-iphonesimulator/RearrangeNumber.app36"5E03112F-FA85-46F9-B875-55F051E168E2-
-
-CCpResource RearrangeNumber/assets/animation/frame-14.png build/Debug-iphonesimulator/RearrangeNumber.app/frame-14.png
-s397082063.376200
-e397082063.386129
-r1
-xCpResource
-xRearrangeNumber/assets/animation/frame-14.png
-xbuild/Debug-iphonesimulator/RearrangeNumber.app/frame-14.png
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection65"Copy build/Debug-iphonesimulator/RearrangeNumber.app/frame-14.pngd06360cffdaab741^e0d962cffdaab741^---0#0#0#-19%DVTDocumentLocation2@158"file://localhost/Users/QA/source/sch-qa-core/automation/tools/R180NG-Mobile/setup/RearrangeNumber/build/Debug-iphonesimulator/RearrangeNumber.app/frame-14.png000000000080d041^772"CpResource RearrangeNumber/assets/animation/frame-14.png build/Debug-iphonesimulator/RearrangeNumber.app/frame-14.png    cd /Users/QA/source/sch-qa-core/automation/tools/R180NG-Mobile/setup/RearrangeNumber    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/QA/source/sch-qa-core/automation/tools/R180NG-Mobile/setup/RearrangeNumber/RearrangeNumber/assets/animation/frame-14.png /Users/QA/source/sch-qa-core/automation/tools/R180NG-Mobile/setup/RearrangeNumber/build/Debug-iphonesimulator/RearrangeNumber.app36"316ABA2C-55A0-4723-9A18-DA059CAA93A7-
-
-CCpResource RearrangeNumber/assets/animation/frame-15.png build/Debug-iphonesimulator/RearrangeNumber.app/frame-15.png
-s397082063.376527
-e397082063.386218
-r1
-xCpResource
-xRearrangeNumber/assets/animation/frame-15.png
-xbuild/Debug-iphonesimulator/RearrangeNumber.app/frame-15.png
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection65"Copy build/Debug-iphonesimulator/RearrangeNumber.app/frame-15.png367760cffdaab741^e7df62cffdaab741^---0#0#0#-19%DVTDocumentLocation2@158"file://localhost/Users/QA/source/sch-qa-core/automation/tools/R180NG-Mobile/setup/RearrangeNumber/build/Debug-iphonesimulator/RearrangeNumber.app/frame-15.png000000000080d041^772"CpResource RearrangeNumber/assets/animation/frame-15.png build/Debug-iphonesimulator/RearrangeNumber.app/frame-15.png    cd /Users/QA/source/sch-qa-core/automation/tools/R180NG-Mobile/setup/RearrangeNumber    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/QA/source/sch-qa-core/automation/tools/R180NG-Mobile/setup/RearrangeNumber/RearrangeNumber/assets/animation/frame-15.png /Users/QA/source/sch-qa-core/automation/tools/R180NG-Mobile/setup/RearrangeNumber/build/Debug-iphonesimulator/RearrangeNumber.app36"3CBBCF78-A82C-4D68-B934-4506A5D03B8D-
-
-CCpResource RearrangeNumber/assets/animation/frame-16.png build/Debug-iphonesimulator/RearrangeNumber.app/frame-16.png
-s397082063.384782
-e397082063.395813
-r1
-xCpResource
-xRearrangeNumber/assets/animation/frame-16.png
-xbuild/Debug-iphonesimulator/RearrangeNumber.app/frame-16.png
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection65"Copy build/Debug-iphonesimulator/RearrangeNumber.app/frame-16.png789862cffdaab741^8f5665cffdaab741^---0#0#0#-19%DVTDocumentLocation2@158"file://localhost/Users/QA/source/sch-qa-core/automation/tools/R180NG-Mobile/setup/RearrangeNumber/build/Debug-iphonesimulator/RearrangeNumber.app/frame-16.png000000000080d041^772"CpResource RearrangeNumber/assets/animation/frame-16.png build/Debug-iphonesimulator/RearrangeNumber.app/frame-16.png    cd /Users/QA/source/sch-qa-core/automation/tools/R180NG-Mobile/setup/RearrangeNumber    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/QA/source/sch-qa-core/automation/tools/R180NG-Mobile/setup/RearrangeNumber/RearrangeNumber/assets/animation/frame-16.png /Users/QA/source/sch-qa-core/automation/tools/R180NG-Mobile/setup/RearrangeNumber/build/Debug-iphonesimulator/RearrangeNumber.app36"D459AD38-84B2-4201-824C-0D6AB67C2964-
-
-CCpResource RearrangeNumber/assets/animation/frame-17.png build/Debug-iphonesimulator/RearrangeNumber.app/frame-17.png
-s397082063.394481
-e397082063.397930
-r1
-xCpResource
-xRearrangeNumber/assets/animation/frame-17.png
-xbuild/Debug-iphonesimulator/RearrangeNumber.app/frame-17.png
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection65"Copy build/Debug-iphonesimulator/RearrangeNumber.app/frame-17.pnge41465cffdaab741^7ade65cffdaab741^---0#0#0#-19%DVTDocumentLocation2@158"file://localhost/Users/QA/source/sch-qa-core/automation/tools/R180NG-Mobile/setup/RearrangeNumber/build/Debug-iphonesimulator/RearrangeNumber.app/frame-17.png000000000080d041^772"CpResource RearrangeNumber/assets/animation/frame-17.png build/Debug-iphonesimulator/RearrangeNumber.app/frame-17.png    cd /Users/QA/source/sch-qa-core/automation/tools/R180NG-Mobile/setup/RearrangeNumber    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/QA/source/sch-qa-core/automation/tools/R180NG-Mobile/setup/RearrangeNumber/RearrangeNumber/assets/animation/frame-17.png /Users/QA/source/sch-qa-core/automation/tools/R180NG-Mobile/setup/RearrangeNumber/build/Debug-iphonesimulator/RearrangeNumber.app36"E05FA331-F082-4073-AC4C-96E938900070-
-
-CCpResource RearrangeNumber/assets/animation/frame-18.png build/Debug-iphonesimulator/RearrangeNumber.app/frame-18.png
-s397082063.394739
-e397082063.399105
-r1
-xCpResource
-xRearrangeNumber/assets/animation/frame-18.png
-xbuild/Debug-iphonesimulator/RearrangeNumber.app/frame-18.png
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection65"Copy build/Debug-iphonesimulator/RearrangeNumber.app/frame-18.pngd12065cffdaab741^232c66cffdaab741^---0#0#0#-19%DVTDocumentLocation2@158"file://localhost/Users/QA/source/sch-qa-core/automation/tools/R180NG-Mobile/setup/RearrangeNumber/build/Debug-iphonesimulator/RearrangeNumber.app/frame-18.png000000000080d041^772"CpResource RearrangeNumber/assets/animation/frame-18.png build/Debug-iphonesimulator/RearrangeNumber.app/frame-18.png    cd /Users/QA/source/sch-qa-core/automation/tools/R180NG-Mobile/setup/RearrangeNumber    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/QA/source/sch-qa-core/automation/tools/R180NG-Mobile/setup/RearrangeNumber/RearrangeNumber/assets/animation/frame-18.png /Users/QA/source/sch-qa-core/automation/tools/R180NG-Mobile/setup/RearrangeNumber/build/Debug-iphonesimulator/RearrangeNumber.app36"832A8F0F-EE67-4E2C-A668-B100BBE95B3D-
-
-CCpResource RearrangeNumber/assets/animation/frame-19.png build/Debug-iphonesimulator/RearrangeNumber.app/frame-19.png
-s397082063.398153
-e397082063.401424
-r1
-xCpResource
-xRearrangeNumber/assets/animation/frame-19.png
-xbuild/Debug-iphonesimulator/RearrangeNumber.app/frame-19.png
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection65"Copy build/Debug-iphonesimulator/RearrangeNumber.app/frame-19.png210266cffdaab741^1ec466cffdaab741^---0#0#0#-19%DVTDocumentLocation2@158"file://localhost/Users/QA/source/sch-qa-core/automation/tools/R180NG-Mobile/setup/RearrangeNumber/build/Debug-iphonesimulator/RearrangeNumber.app/frame-19.png000000000080d041^772"CpResource RearrangeNumber/assets/animation/frame-19.png build/Debug-iphonesimulator/RearrangeNumber.app/frame-19.png    cd /Users/QA/source/sch-qa-core/automation/tools/R180NG-Mobile/setup/RearrangeNumber    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/QA/source/sch-qa-core/automation/tools/R180NG-Mobile/setup/RearrangeNumber/RearrangeNumber/assets/animation/frame-19.png /Users/QA/source/sch-qa-core/automation/tools/R180NG-Mobile/setup/RearrangeNumber/build/Debug-iphonesimulator/RearrangeNumber.app36"E01B2D03-1676-423E-9974-DD841EF3FADF-
-
-CCpResource RearrangeNumber/assets/animation/frame-2.png build/Debug-iphonesimulator/RearrangeNumber.app/frame-2.png
-s397082063.398146
-e397082063.400224
-r1
-xCpResource
-xRearrangeNumber/assets/animation/frame-2.png
-xbuild/Debug-iphonesimulator/RearrangeNumber.app/frame-2.png
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection64"Copy build/Debug-iphonesimulator/RearrangeNumber.app/frame-2.png040166cffdaab741^f37466cffdaab741^---0#0#0#-19%DVTDocumentLocation2@157"file://localhost/Users/QA/source/sch-qa-core/automation/tools/R180NG-Mobile/setup/RearrangeNumber/build/Debug-iphonesimulator/RearrangeNumber.app/frame-2.png000000000080d041^769"CpResource RearrangeNumber/assets/animation/frame-2.png build/Debug-iphonesimulator/RearrangeNumber.app/frame-2.png    cd /Users/QA/source/sch-qa-core/automation/tools/R180NG-Mobile/setup/RearrangeNumber    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/QA/source/sch-qa-core/automation/tools/R180NG-Mobile/setup/RearrangeNumber/RearrangeNumber/assets/animation/frame-2.png /Users/QA/source/sch-qa-core/automation/tools/R180NG-Mobile/setup/RearrangeNumber/build/Debug-iphonesimulator/RearrangeNumber.app36"E6D1A465-503C-44BC-A8D2-3D0C3B4FF595-
-
-CCpResource RearrangeNumber/assets/animation/frame-20.png build/Debug-iphonesimulator/RearrangeNumber.app/frame-20.png
-s397082063.400509
-e397082063.402586
-r1
-xCpResource
-xRearrangeNumber/assets/animation/frame-20.png
-xbuild/Debug-iphonesimulator/RearrangeNumber.app/frame-20.png
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection65"Copy build/Debug-iphonesimulator/RearrangeNumber.app/frame-20.png289b66cffdaab741^ba1067cffdaab741^---0#0#0#-19%DVTDocumentLocation2@158"file://localhost/Users/QA/source/sch-qa-core/automation/tools/R180NG-Mobile/setup/RearrangeNumber/build/Debug-iphonesimulator/RearrangeNumber.app/frame-20.png000000000080d041^772"CpResource RearrangeNumber/assets/animation/frame-20.png build/Debug-iphonesimulator/RearrangeNumber.app/frame-20.png    cd /Users/QA/source/sch-qa-core/automation/tools/R180NG-Mobile/setup/RearrangeNumber    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/QA/source/sch-qa-core/automation/tools/R180NG-Mobile/setup/RearrangeNumber/RearrangeNumber/assets/animation/frame-20.png /Users/QA/source/sch-qa-core/automation/tools/R180NG-Mobile/setup/RearrangeNumber/build/Debug-iphonesimulator/RearrangeNumber.app36"26F49B42-9C2A-4947-AC9A-D07FB8FE8632-
-
-CCpResource RearrangeNumber/assets/animation/frame-3.png build/Debug-iphonesimulator/RearrangeNumber.app/frame-3.png
-s397082063.400523
-e397082063.403596
-r1
-xCpResource
-xRearrangeNumber/assets/animation/frame-3.png
-xbuild/Debug-iphonesimulator/RearrangeNumber.app/frame-3.png
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection64"Copy build/Debug-iphonesimulator/RearrangeNumber.app/frame-3.pngd3a266cffdaab741^975267cffdaab741^---0#0#0#-19%DVTDocumentLocation2@157"file://localhost/Users/QA/source/sch-qa-core/automation/tools/R180NG-Mobile/setup/RearrangeNumber/build/Debug-iphonesimulator/RearrangeNumber.app/frame-3.png000000000080d041^769"CpResource RearrangeNumber/assets/animation/frame-3.png build/Debug-iphonesimulator/RearrangeNumber.app/frame-3.png    cd /Users/QA/source/sch-qa-core/automation/tools/R180NG-Mobile/setup/RearrangeNumber    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/QA/source/sch-qa-core/automation/tools/R180NG-Mobile/setup/RearrangeNumber/RearrangeNumber/assets/animation/frame-3.png /Users/QA/source/sch-qa-core/automation/tools/R180NG-Mobile/setup/RearrangeNumber/build/Debug-iphonesimulator/RearrangeNumber.app36"244B397C-A6F6-45D5-867A-C36E7406D498-
-
-CCpResource RearrangeNumber/assets/animation/frame-4.png build/Debug-iphonesimulator/RearrangeNumber.app/frame-4.png
-s397082063.402644
-e397082063.404687
-r1
-xCpResource
-xRearrangeNumber/assets/animation/frame-4.png
-xbuild/Debug-iphonesimulator/RearrangeNumber.app/frame-4.png
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection64"Copy build/Debug-iphonesimulator/RearrangeNumber.app/frame-4.png6c2667cffdaab741^3d9967cffdaab741^---0#0#0#-19%DVTDocumentLocation2@157"file://localhost/Users/QA/source/sch-qa-core/automation/tools/R180NG-Mobile/setup/RearrangeNumber/build/Debug-iphonesimulator/RearrangeNumber.app/frame-4.png000000000080d041^769"CpResource RearrangeNumber/assets/animation/frame-4.png build/Debug-iphonesimulator/RearrangeNumber.app/frame-4.png    cd /Users/QA/source/sch-qa-core/automation/tools/R180NG-Mobile/setup/RearrangeNumber    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/QA/source/sch-qa-core/automation/tools/R180NG-Mobile/setup/RearrangeNumber/RearrangeNumber/assets/animation/frame-4.png /Users/QA/source/sch-qa-core/automation/tools/R180NG-Mobile/setup/RearrangeNumber/build/Debug-iphonesimulator/RearrangeNumber.app36"5CC1D68F-63B2-4BEC-BC02-BC32FF596335-
-
-CCpResource RearrangeNumber/assets/animation/frame-5.png build/Debug-iphonesimulator/RearrangeNumber.app/frame-5.png
-s397082063.403764
-e397082063.406952
-r1
-xCpResource
-xRearrangeNumber/assets/animation/frame-5.png
-xbuild/Debug-iphonesimulator/RearrangeNumber.app/frame-5.png
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection64"Copy build/Debug-iphonesimulator/RearrangeNumber.app/frame-5.png4c6f67cffdaab741^772e68cffdaab741^---0#0#0#-19%DVTDocumentLocation2@157"file://localhost/Users/QA/source/sch-qa-core/automation/tools/R180NG-Mobile/setup/RearrangeNumber/build/Debug-iphonesimulator/RearrangeNumber.app/frame-5.png000000000080d041^769"CpResource RearrangeNumber/assets/animation/frame-5.png build/Debug-iphonesimulator/RearrangeNumber.app/frame-5.png    cd /Users/QA/source/sch-qa-core/automation/tools/R180NG-Mobile/setup/RearrangeNumber    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/QA/source/sch-qa-core/automation/tools/R180NG-Mobile/setup/RearrangeNumber/RearrangeNumber/assets/animation/frame-5.png /Users/QA/source/sch-qa-core/automation/tools/R180NG-Mobile/setup/RearrangeNumber/build/Debug-iphonesimulator/RearrangeNumber.app36"2A4DEB75-042D-4D02-8346-4EE7FEAC9117-
-
-CCpResource RearrangeNumber/assets/animation/frame-6.png build/Debug-iphonesimulator/RearrangeNumber.app/frame-6.png
-s397082063.403760
-e397082063.405798
-r1
-xCpResource
-xRearrangeNumber/assets/animation/frame-6.png
-xbuild/Debug-iphonesimulator/RearrangeNumber.app/frame-6.png
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection64"Copy build/Debug-iphonesimulator/RearrangeNumber.app/frame-6.png726e67cffdaab741^b0e767cffdaab741^---0#0#0#-19%DVTDocumentLocation2@157"file://localhost/Users/QA/source/sch-qa-core/automation/tools/R180NG-Mobile/setup/RearrangeNumber/build/Debug-iphonesimulator/RearrangeNumber.app/frame-6.png000000000080d041^769"CpResource RearrangeNumber/assets/animation/frame-6.png build/Debug-iphonesimulator/RearrangeNumber.app/frame-6.png    cd /Users/QA/source/sch-qa-core/automation/tools/R180NG-Mobile/setup/RearrangeNumber    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/QA/source/sch-qa-core/automation/tools/R180NG-Mobile/setup/RearrangeNumber/RearrangeNumber/assets/animation/frame-6.png /Users/QA/source/sch-qa-core/automation/tools/R180NG-Mobile/setup/RearrangeNumber/build/Debug-iphonesimulator/RearrangeNumber.app36"6429912B-EA1C-4413-A271-84CBC9806BD0-
-
-CCpResource RearrangeNumber/assets/animation/frame-7.png build/Debug-iphonesimulator/RearrangeNumber.app/frame-7.png
-s397082063.406013
-e397082063.408056
-r1
-xCpResource
-xRearrangeNumber/assets/animation/frame-7.png
-xbuild/Debug-iphonesimulator/RearrangeNumber.app/frame-7.png
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection64"Copy build/Debug-iphonesimulator/RearrangeNumber.app/frame-7.pngb40168cffdaab741^297668cffdaab741^---0#0#0#-19%DVTDocumentLocation2@157"file://localhost/Users/QA/source/sch-qa-core/automation/tools/R180NG-Mobile/setup/RearrangeNumber/build/Debug-iphonesimulator/RearrangeNumber.app/frame-7.png000000000080d041^769"CpResource RearrangeNumber/assets/animation/frame-7.png build/Debug-iphonesimulator/RearrangeNumber.app/frame-7.png    cd /Users/QA/source/sch-qa-core/automation/tools/R180NG-Mobile/setup/RearrangeNumber    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/QA/source/sch-qa-core/automation/tools/R180NG-Mobile/setup/RearrangeNumber/RearrangeNumber/assets/animation/frame-7.png /Users/QA/source/sch-qa-core/automation/tools/R180NG-Mobile/setup/RearrangeNumber/build/Debug-iphonesimulator/RearrangeNumber.app36"336A3936-AA5B-4BDE-9217-4296CD167B26-
-
-CCpResource RearrangeNumber/assets/animation/frame-8.png build/Debug-iphonesimulator/RearrangeNumber.app/frame-8.png
-s397082063.406018
-e397082063.409168
-r1
-xCpResource
-xRearrangeNumber/assets/animation/frame-8.png
-xbuild/Debug-iphonesimulator/RearrangeNumber.app/frame-8.png
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection64"Copy build/Debug-iphonesimulator/RearrangeNumber.app/frame-8.pngbc0768cffdaab741^f9be68cffdaab741^---0#0#0#-19%DVTDocumentLocation2@157"file://localhost/Users/QA/source/sch-qa-core/automation/tools/R180NG-Mobile/setup/RearrangeNumber/build/Debug-iphonesimulator/RearrangeNumber.app/frame-8.png000000000080d041^769"CpResource RearrangeNumber/assets/animation/frame-8.png build/Debug-iphonesimulator/RearrangeNumber.app/frame-8.png    cd /Users/QA/source/sch-qa-core/automation/tools/R180NG-Mobile/setup/RearrangeNumber    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/QA/source/sch-qa-core/automation/tools/R180NG-Mobile/setup/RearrangeNumber/RearrangeNumber/assets/animation/frame-8.png /Users/QA/source/sch-qa-core/automation/tools/R180NG-Mobile/setup/RearrangeNumber/build/Debug-iphonesimulator/RearrangeNumber.app36"CA23FD85-7E2A-424A-83EB-004076C9FA38-
-
-CCpResource RearrangeNumber/assets/animation/frame-9.png build/Debug-iphonesimulator/RearrangeNumber.app/frame-9.png
-s397082063.407110
-e397082063.410301
-r1
-xCpResource
-xRearrangeNumber/assets/animation/frame-9.png
-xbuild/Debug-iphonesimulator/RearrangeNumber.app/frame-9.png
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection64"Copy build/Debug-iphonesimulator/RearrangeNumber.app/frame-9.png014d68cffdaab741^af0969cffdaab741^---0#0#0#-19%DVTDocumentLocation2@157"file://localhost/Users/QA/source/sch-qa-core/automation/tools/R180NG-Mobile/setup/RearrangeNumber/build/Debug-iphonesimulator/RearrangeNumber.app/frame-9.png000000000080d041^769"CpResource RearrangeNumber/assets/animation/frame-9.png build/Debug-iphonesimulator/RearrangeNumber.app/frame-9.png    cd /Users/QA/source/sch-qa-core/automation/tools/R180NG-Mobile/setup/RearrangeNumber    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/QA/source/sch-qa-core/automation/tools/R180NG-Mobile/setup/RearrangeNumber/RearrangeNumber/assets/animation/frame-9.png /Users/QA/source/sch-qa-core/automation/tools/R180NG-Mobile/setup/RearrangeNumber/build/Debug-iphonesimulator/RearrangeNumber.app36"964BFFB7-84D0-415A-A8EB-90BEA6DA8025-
-
-CCpResource RearrangeNumber/assets/bee.png build/Debug-iphonesimulator/RearrangeNumber.app/bee.png
-s397082063.409269
-e397082063.411343
-r1
-xCpResource
-xRearrangeNumber/assets/bee.png
-xbuild/Debug-iphonesimulator/RearrangeNumber.app/bee.png
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection60"Copy build/Debug-iphonesimulator/RearrangeNumber.app/bee.png62d968cffdaab741^514d69cffdaab741^---0#0#0#-19%DVTDocumentLocation2@153"file://localhost/Users/QA/source/sch-qa-core/automation/tools/R180NG-Mobile/setup/RearrangeNumber/build/Debug-iphonesimulator/RearrangeNumber.app/bee.png000000000080d041^737"CpResource RearrangeNumber/assets/bee.png build/Debug-iphonesimulator/RearrangeNumber.app/bee.png    cd /Users/QA/source/sch-qa-core/automation/tools/R180NG-Mobile/setup/RearrangeNumber    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/QA/source/sch-qa-core/automation/tools/R180NG-Mobile/setup/RearrangeNumber/RearrangeNumber/assets/bee.png /Users/QA/source/sch-qa-core/automation/tools/R180NG-Mobile/setup/RearrangeNumber/build/Debug-iphonesimulator/RearrangeNumber.app36"E088FA65-3E87-4568-BF3B-0F7D452B60E1-
-
-CCpResource RearrangeNumber/assets/bubble.png build/Debug-iphonesimulator/RearrangeNumber.app/bubble.png
-s397082063.410396
-e397082063.412508
-r1
-xCpResource
-xRearrangeNumber/assets/bubble.png
-xbuild/Debug-iphonesimulator/RearrangeNumber.app/bubble.png
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection63"Copy build/Debug-iphonesimulator/RearrangeNumber.app/bubble.pngff2169cffdaab741^529a69cffdaab741^---0#0#0#-19%DVTDocumentLocation2@156"file://localhost/Users/QA/source/sch-qa-core/automation/tools/R180NG-Mobile/setup/RearrangeNumber/build/Debug-iphonesimulator/RearrangeNumber.app/bubble.png000000000080d041^746"CpResource RearrangeNumber/assets/bubble.png build/Debug-iphonesimulator/RearrangeNumber.app/bubble.png    cd /Users/QA/source/sch-qa-core/automation/tools/R180NG-Mobile/setup/RearrangeNumber    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/QA/source/sch-qa-core/automation/tools/R180NG-Mobile/setup/RearrangeNumber/RearrangeNumber/assets/bubble.png /Users/QA/source/sch-qa-core/automation/tools/R180NG-Mobile/setup/RearrangeNumber/build/Debug-iphonesimulator/RearrangeNumber.app36"2E3A8170-3B0B-44DA-8CC6-2B6E81FD2DD0-
-
-CCpResource RearrangeNumber/assets/cow.png build/Debug-iphonesimulator/RearrangeNumber.app/cow.png
-s397082063.411431
-e397082063.413525
-r1
-xCpResource
-xRearrangeNumber/assets/cow.png
-xbuild/Debug-iphonesimulator/RearrangeNumber.app/cow.png
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection60"Copy build/Debug-iphonesimulator/RearrangeNumber.app/cow.pngf56569cffdaab741^2bdd69cffdaab741^---0#0#0#-19%DVTDocumentLocation2@153"file://localhost/Users/QA/source/sch-qa-core/automation/tools/R180NG-Mobile/setup/RearrangeNumber/build/Debug-iphonesimulator/RearrangeNumber.app/cow.png000000000080d041^737"CpResource RearrangeNumber/assets/cow.png build/Debug-iphonesimulator/RearrangeNumber.app/cow.png    cd /Users/QA/source/sch-qa-core/automation/tools/R180NG-Mobile/setup/RearrangeNumber    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/QA/source/sch-qa-core/automation/tools/R180NG-Mobile/setup/RearrangeNumber/RearrangeNumber/assets/cow.png /Users/QA/source/sch-qa-core/automation/tools/R180NG-Mobile/setup/RearrangeNumber/build/Debug-iphonesimulator/RearrangeNumber.app36"80106F7C-EBCC-4F08-B17B-9738B957C46C-
-
-CCpResource RearrangeNumber/assets/default.png build/Debug-iphonesimulator/RearrangeNumber.app/default.png
-s397082063.412555
-e397082063.414774
-r1
-xCpResource
-xRearrangeNumber/assets/default.png
-xbuild/Debug-iphonesimulator/RearrangeNumber.app/default.png
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection64"Copy build/Debug-iphonesimulator/RearrangeNumber.app/default.png21b169cffdaab741^b1366acffdaab741^---0#0#0#-19%DVTDocumentLocation2@157"file://localhost/Users/QA/source/sch-qa-core/automation/tools/R180NG-Mobile/setup/RearrangeNumber/build/Debug-iphonesimulator/RearrangeNumber.app/default.png0000000000000000^749"CpResource RearrangeNumber/assets/default.png build/Debug-iphonesimulator/RearrangeNumber.app/default.png    cd /Users/QA/source/sch-qa-core/automation/tools/R180NG-Mobile/setup/RearrangeNumber    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/QA/source/sch-qa-core/automation/tools/R180NG-Mobile/setup/RearrangeNumber/RearrangeNumber/assets/default.png /Users/QA/source/sch-qa-core/automation/tools/R180NG-Mobile/setup/RearrangeNumber/build/Debug-iphonesimulator/RearrangeNumber.app36"D2BC9FD0-66DA-4FE7-91BF-5B458ADAC3DC-
-
-CCpResource RearrangeNumber/assets/horsey.png build/Debug-iphonesimulator/RearrangeNumber.app/horsey.png
-s397082063.413685
-e397082063.415799
-r1
-xCpResource
-xRearrangeNumber/assets/horsey.png
-xbuild/Debug-iphonesimulator/RearrangeNumber.app/horsey.png
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection63"Copy build/Debug-iphonesimulator/RearrangeNumber.app/horsey.png2ff769cffdaab741^3a746acffdaab741^---0#0#0#-19%DVTDocumentLocation2@156"file://localhost/Users/QA/source/sch-qa-core/automation/tools/R180NG-Mobile/setup/RearrangeNumber/build/Debug-iphonesimulator/RearrangeNumber.app/horsey.png000000000080d041^746"CpResource RearrangeNumber/assets/horsey.png build/Debug-iphonesimulator/RearrangeNumber.app/horsey.png    cd /Users/QA/source/sch-qa-core/automation/tools/R180NG-Mobile/setup/RearrangeNumber    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/QA/source/sch-qa-core/automation/tools/R180NG-Mobile/setup/RearrangeNumber/RearrangeNumber/assets/horsey.png /Users/QA/source/sch-qa-core/automation/tools/R180NG-Mobile/setup/RearrangeNumber/build/Debug-iphonesimulator/RearrangeNumber.app36"210D7A41-86E8-41B6-9038-90DD4070A6C2-
-
-CCpResource RearrangeNumber/assets/icon.png build/Debug-iphonesimulator/RearrangeNumber.app/icon.png
-s397082063.415009
-e397082063.417101
-r1
-xCpResource
-xRearrangeNumber/assets/icon.png
-xbuild/Debug-iphonesimulator/RearrangeNumber.app/icon.png
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection61"Copy build/Debug-iphonesimulator/RearrangeNumber.app/icon.pngda536acffdaab741^b4c86acffdaab741^---0#0#0#-19%DVTDocumentLocation2@154"file://localhost/Users/QA/source/sch-qa-core/automation/tools/R180NG-Mobile/setup/RearrangeNumber/build/Debug-iphonesimulator/RearrangeNumber.app/icon.png000000000080d041^740"CpResource RearrangeNumber/assets/icon.png build/Debug-iphonesimulator/RearrangeNumber.app/icon.png    cd /Users/QA/source/sch-qa-core/automation/tools/R180NG-Mobile/setup/RearrangeNumber    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/QA/source/sch-qa-core/automation/tools/R180NG-Mobile/setup/RearrangeNumber/RearrangeNumber/assets/icon.png /Users/QA/source/sch-qa-core/automation/tools/R180NG-Mobile/setup/RearrangeNumber/build/Debug-iphonesimulator/RearrangeNumber.app36"938CD164-DE8D-403D-A14D-F301835295F7-
-
-CCpResource RearrangeNumber/assets/landscape.png build/Debug-iphonesimulator/RearrangeNumber.app/landscape.png
-s397082063.415021
-e397082063.418174
-r1
-xCpResource
-xRearrangeNumber/assets/landscape.png
-xbuild/Debug-iphonesimulator/RearrangeNumber.app/landscape.png
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection66"Copy build/Debug-iphonesimulator/RearrangeNumber.app/landscape.png986a6acffdaab741^fa0d6bcffdaab741^---0#0#0#-19%DVTDocumentLocation2@159"file://localhost/Users/QA/source/sch-qa-core/automation/tools/R180NG-Mobile/setup/RearrangeNumber/build/Debug-iphonesimulator/RearrangeNumber.app/landscape.png000000000080d041^755"CpResource RearrangeNumber/assets/landscape.png build/Debug-iphonesimulator/RearrangeNumber.app/landscape.png    cd /Users/QA/source/sch-qa-core/automation/tools/R180NG-Mobile/setup/RearrangeNumber    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/QA/source/sch-qa-core/automation/tools/R180NG-Mobile/setup/RearrangeNumber/RearrangeNumber/assets/landscape.png /Users/QA/source/sch-qa-core/automation/tools/R180NG-Mobile/setup/RearrangeNumber/build/Debug-iphonesimulator/RearrangeNumber.app36"5A5A13E2-2A38-4F80-8848-1F2685A49350-
-
-CCpResource RearrangeNumber/assets/sounds/bee.wav build/Debug-iphonesimulator/RearrangeNumber.app/bee.wav
-s397082063.417002
-e397082063.419934
-r1
-xCpResource
-xRearrangeNumber/assets/sounds/bee.wav
-xbuild/Debug-iphonesimulator/RearrangeNumber.app/bee.wav
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection60"Copy build/Debug-iphonesimulator/RearrangeNumber.app/bee.wav88d66acffdaab741^a6816bcffdaab741^---0#0#0#-19%DVTDocumentLocation2@153"file://localhost/Users/QA/source/sch-qa-core/automation/tools/R180NG-Mobile/setup/RearrangeNumber/build/Debug-iphonesimulator/RearrangeNumber.app/bee.wav000000000080d041^751"CpResource RearrangeNumber/assets/sounds/bee.wav build/Debug-iphonesimulator/RearrangeNumber.app/bee.wav    cd /Users/QA/source/sch-qa-core/automation/tools/R180NG-Mobile/setup/RearrangeNumber    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/QA/source/sch-qa-core/automation/tools/R180NG-Mobile/setup/RearrangeNumber/RearrangeNumber/assets/sounds/bee.wav /Users/QA/source/sch-qa-core/automation/tools/R180NG-Mobile/setup/RearrangeNumber/build/Debug-iphonesimulator/RearrangeNumber.app36"BF9C03C9-D996-457C-B424-5B4B12B56577-
-
-CCpResource RearrangeNumber/assets/sounds/cow.wav build/Debug-iphonesimulator/RearrangeNumber.app/cow.wav
-s397082063.418330
-e397082063.420533
-r1
-xCpResource
-xRearrangeNumber/assets/sounds/cow.wav
-xbuild/Debug-iphonesimulator/RearrangeNumber.app/cow.wav
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection60"Copy build/Debug-iphonesimulator/RearrangeNumber.app/cow.wavdc2b6bcffdaab741^eba76bcffdaab741^---0#0#0#-19%DVTDocumentLocation2@153"file://localhost/Users/QA/source/sch-qa-core/automation/tools/R180NG-Mobile/setup/RearrangeNumber/build/Debug-iphonesimulator/RearrangeNumber.app/cow.wav000000000080d041^751"CpResource RearrangeNumber/assets/sounds/cow.wav build/Debug-iphonesimulator/RearrangeNumber.app/cow.wav    cd /Users/QA/source/sch-qa-core/automation/tools/R180NG-Mobile/setup/RearrangeNumber    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/QA/source/sch-qa-core/automation/tools/R180NG-Mobile/setup/RearrangeNumber/RearrangeNumber/assets/sounds/cow.wav /Users/QA/source/sch-qa-core/automation/tools/R180NG-Mobile/setup/RearrangeNumber/build/Debug-iphonesimulator/RearrangeNumber.app36"4E0B3842-1A1C-4542-9B3D-EF1D62DA35DE-
-
-CCpResource RearrangeNumber/assets/sounds/horsey.wav build/Debug-iphonesimulator/RearrangeNumber.app/horsey.wav
-s397082063.418361
-e397082063.421910
-r1
-xCpResource
-xRearrangeNumber/assets/sounds/horsey.wav
-xbuild/Debug-iphonesimulator/RearrangeNumber.app/horsey.wav
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection63"Copy build/Debug-iphonesimulator/RearrangeNumber.app/horsey.wavfe2b6bcffdaab741^d1026ccffdaab741^---0#0#0#-19%DVTDocumentLocation2@156"file://localhost/Users/QA/source/sch-qa-core/automation/tools/R180NG-Mobile/setup/RearrangeNumber/build/Debug-iphonesimulator/RearrangeNumber.app/horsey.wav000000000080d041^760"CpResource RearrangeNumber/assets/sounds/horsey.wav build/Debug-iphonesimulator/RearrangeNumber.app/horsey.wav    cd /Users/QA/source/sch-qa-core/automation/tools/R180NG-Mobile/setup/RearrangeNumber    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/QA/source/sch-qa-core/automation/tools/R180NG-Mobile/setup/RearrangeNumber/RearrangeNumber/assets/sounds/horsey.wav /Users/QA/source/sch-qa-core/automation/tools/R180NG-Mobile/setup/RearrangeNumber/build/Debug-iphonesimulator/RearrangeNumber.app36"7F4FD0E2-16E7-4B18-B146-DDC4051A66B4-
-
-CCpResource RearrangeNumber/assets/sounds/sun.wav build/Debug-iphonesimulator/RearrangeNumber.app/sun.wav
-s397082063.421146
-e397082063.423362
-r1
-xCpResource
-xRearrangeNumber/assets/sounds/sun.wav
-xbuild/Debug-iphonesimulator/RearrangeNumber.app/sun.wav
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection60"Copy build/Debug-iphonesimulator/RearrangeNumber.app/sun.wav43e56bcffdaab741^a6616ccffdaab741^---0#0#0#-19%DVTDocumentLocation2@153"file://localhost/Users/QA/source/sch-qa-core/automation/tools/R180NG-Mobile/setup/RearrangeNumber/build/Debug-iphonesimulator/RearrangeNumber.app/sun.wav000000000080d041^751"CpResource RearrangeNumber/assets/sounds/sun.wav build/Debug-iphonesimulator/RearrangeNumber.app/sun.wav    cd /Users/QA/source/sch-qa-core/automation/tools/R180NG-Mobile/setup/RearrangeNumber    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/QA/source/sch-qa-core/automation/tools/R180NG-Mobile/setup/RearrangeNumber/RearrangeNumber/assets/sounds/sun.wav /Users/QA/source/sch-qa-core/automation/tools/R180NG-Mobile/setup/RearrangeNumber/build/Debug-iphonesimulator/RearrangeNumber.app36"F60FA85C-23FF-4B6F-8FB2-EA9C3F2E2565-
-
-CCpResource RearrangeNumber/assets/sun.png build/Debug-iphonesimulator/RearrangeNumber.app/sun.png
-s397082063.421172
-e397082063.424316
-r1
-xCpResource
-xRearrangeNumber/assets/sun.png
-xbuild/Debug-iphonesimulator/RearrangeNumber.app/sun.png
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection60"Copy build/Debug-iphonesimulator/RearrangeNumber.app/sun.png2dea6bcffdaab741^e89f6ccffdaab741^---0#0#0#-19%DVTDocumentLocation2@153"file://localhost/Users/QA/source/sch-qa-core/automation/tools/R180NG-Mobile/setup/RearrangeNumber/build/Debug-iphonesimulator/RearrangeNumber.app/sun.png000000000080d041^737"CpResource RearrangeNumber/assets/sun.png build/Debug-iphonesimulator/RearrangeNumber.app/sun.png    cd /Users/QA/source/sch-qa-core/automation/tools/R180NG-Mobile/setup/RearrangeNumber    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/QA/source/sch-qa-core/automation/tools/R180NG-Mobile/setup/RearrangeNumber/RearrangeNumber/assets/sun.png /Users/QA/source/sch-qa-core/automation/tools/R180NG-Mobile/setup/RearrangeNumber/build/Debug-iphonesimulator/RearrangeNumber.app36"4A8C96A7-E3E4-4244-BAA9-266B9D450C6C-
-
-CCpResource RearrangeNumber/assets/video.png build/Debug-iphonesimulator/RearrangeNumber.app/video.png
-s397082063.423083
-e397082063.425451
-r1
-xCpResource
-xRearrangeNumber/assets/video.png
-xbuild/Debug-iphonesimulator/RearrangeNumber.app/video.png
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection62"Copy build/Debug-iphonesimulator/RearrangeNumber.app/video.png30656ccffdaab741^8eea6ccffdaab741^---0#0#0#-19%DVTDocumentLocation2@155"file://localhost/Users/QA/source/sch-qa-core/automation/tools/R180NG-Mobile/setup/RearrangeNumber/build/Debug-iphonesimulator/RearrangeNumber.app/video.png000000000080d041^743"CpResource RearrangeNumber/assets/video.png build/Debug-iphonesimulator/RearrangeNumber.app/video.png    cd /Users/QA/source/sch-qa-core/automation/tools/R180NG-Mobile/setup/RearrangeNumber    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/QA/source/sch-qa-core/automation/tools/R180NG-Mobile/setup/RearrangeNumber/RearrangeNumber/assets/video.png /Users/QA/source/sch-qa-core/automation/tools/R180NG-Mobile/setup/RearrangeNumber/build/Debug-iphonesimulator/RearrangeNumber.app36"AD5FABDF-C26D-4011-837B-311F597DC066-
-
-CGenerateDSYMFile /Users/QA/source/sch-qa-core/automation/tools/R180NG-Mobile/setup/RearrangeNumber/build/Debug-iphonesimulator/RearrangeNumber.app.dSYM /Users/QA/source/sch-qa-core/automation/tools/R180NG-Mobile/setup/RearrangeNumber/build/Debug-iphonesimulator/RearrangeNumber.app/RearrangeNumber
-s397082063.295398
-e397082063.355235
-r1
-xGenerateDSYMFile
-x/Users/QA/source/sch-qa-core/automation/tools/R180NG-Mobile/setup/RearrangeNumber/build/Debug-iphonesimulator/RearrangeNumber.app.dSYM
-x/Users/QA/source/sch-qa-core/automation/tools/R180NG-Mobile/setup/RearrangeNumber/build/Debug-iphonesimulator/RearrangeNumber.app/RearrangeNumber
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection143"Generate /Users/QA/source/sch-qa-core/automation/tools/R180NG-Mobile/setup/RearrangeNumber/build/Debug-iphonesimulator/RearrangeNumber.app.dSYMccb64bcffdaab741^67f15acffdaab741^---0#0#0#-19%DVTDocumentLocation2@150"file://localhost/Users/QA/source/sch-qa-core/automation/tools/R180NG-Mobile/setup/RearrangeNumber/build/Debug-iphonesimulator/RearrangeNumber.app.dSYM000000000080d041^802"GenerateDSYMFile build/Debug-iphonesimulator/RearrangeNumber.app.dSYM build/Debug-iphonesimulator/RearrangeNumber.app/RearrangeNumber    cd /Users/QA/source/sch-qa-core/automation/tools/R180NG-Mobile/setup/RearrangeNumber    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/dsymutil /Users/QA/source/sch-qa-core/automation/tools/R180NG-Mobile/setup/RearrangeNumber/build/Debug-iphonesimulator/RearrangeNumber.app/RearrangeNumber -o /Users/QA/source/sch-qa-core/automation/tools/R180NG-Mobile/setup/RearrangeNumber/build/Debug-iphonesimulator/RearrangeNumber.app.dSYM36"05200D07-EF25-4057-87A7-0BF078A4236F-
-
-CLd /Users/QA/source/sch-qa-core/automation/tools/R180NG-Mobile/setup/RearrangeNumber/build/Debug-iphonesimulator/RearrangeNumber.app/RearrangeNumber normal i386
-s397082062.581908
-e397082063.288347
-r1
-xLd
-x/Users/QA/source/sch-qa-core/automation/tools/R180NG-Mobile/setup/RearrangeNumber/build/Debug-iphonesimulator/RearrangeNumber.app/RearrangeNumber
-xnormal
-xi386
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection150"Link /Users/QA/source/sch-qa-core/automation/tools/R180NG-Mobile/setup/RearrangeNumber/build/Debug-iphonesimulator/RearrangeNumber.app/RearrangeNumber780e95cefdaab741^0bd149cffdaab741^---0#0#0#--1442"Ld build/Debug-iphonesimulator/RearrangeNumber.app/RearrangeNumber normal i386    cd /Users/QA/source/sch-qa-core/automation/tools/R180NG-Mobile/setup/RearrangeNumber    setenv IPHONEOS_DEPLOYMENT_TARGET 6.0    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch i386 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk -L/Users/QA/source/sch-qa-core/automation/tools/R180NG-Mobile/setup/RearrangeNumber/build/Debug-iphonesimulator -F/Users/QA/source/sch-qa-core/automation/tools/R180NG-Mobile/setup/RearrangeNumber/build/Debug-iphonesimulator -filelist /Users/QA/source/sch-qa-core/automation/tools/R180NG-Mobile/setup/RearrangeNumber/build/RearrangeNumber.build/Debug-iphonesimulator/RearrangeNumber.build/Objects-normal/i386/RearrangeNumber.LinkFileList -Xlinker -objc_abi_version -Xlinker 2 -fobjc-arc -fobjc-link-runtime -Xlinker -no_implicit_dylibs -mios-simulator-version-min=6.0 -framework AudioToolbox -framework UIKit -framework Foundation -framework CoreGraphics -o /Users/QA/source/sch-qa-core/automation/tools/R180NG-Mobile/setup/RearrangeNumber/build/Debug-iphonesimulator/RearrangeNumber.app/RearrangeNumber36"C4ECBCDD-D203-48B1-9D48-2DC0CBACF28A-
-
-CProcessInfoPlistFile /Users/QA/source/sch-qa-core/automation/tools/R180NG-Mobile/setup/RearrangeNumber/build/Debug-iphonesimulator/RearrangeNumber.app/Info.plist RearrangeNumber/RearrangeNumber-Info.plist
-s397082061.755332
-e397082061.771121
-r1
-xProcessInfoPlistFile
-x/Users/QA/source/sch-qa-core/automation/tools/R180NG-Mobile/setup/RearrangeNumber/build/Debug-iphonesimulator/RearrangeNumber.app/Info.plist
-xRearrangeNumber/RearrangeNumber-Info.plist
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection50"Process RearrangeNumber/RearrangeNumber-Info.plista9ddc3cdfdaab741^c079c5cdfdaab741^---0#0#0#-19%DVTDocumentLocation2@140"file://localhost/Users/QA/source/sch-qa-core/automation/tools/R180NG-Mobile/setup/RearrangeNumber/RearrangeNumber/RearrangeNumber-Info.plist0000000000000000^835"ProcessInfoPlistFile build/Debug-iphonesimulator/RearrangeNumber.app/Info.plist RearrangeNumber/RearrangeNumber-Info.plist    cd /Users/QA/source/sch-qa-core/automation/tools/R180NG-Mobile/setup/RearrangeNumber    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility RearrangeNumber/RearrangeNumber-Info.plist -genpkginfo /Users/QA/source/sch-qa-core/automation/tools/R180NG-Mobile/setup/RearrangeNumber/build/Debug-iphonesimulator/RearrangeNumber.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -o /Users/QA/source/sch-qa-core/automation/tools/R180NG-Mobile/setup/RearrangeNumber/build/Debug-iphonesimulator/RearrangeNumber.app/Info.plist36"3A1EBC8E-F5BE-4A6C-8E54-3394C0CCE8A5-
-
-CProcessPCH /Users/QA/Library/Developer/Xcode/DerivedData/RearrangeNumber-flukopexujznrrbmfamqeosyswdf/Index/PrecompiledHeaders/RearrangeNumber-Prefix-duibohugrhjoizatjlxbtdqoiuxv_ast/RearrangeNumber-Prefix.pch.pth RearrangeNumber/RearrangeNumber-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.astbuilder
-r0
-
-CProcessPCH /var/folders/cp/v3lbpv3555z45xq56nkzz8lc0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/RearrangeNumber-Prefix-fzjcsiocqsfqlvfperlecjwdqlvo/RearrangeNumber-Prefix.pch.pth RearrangeNumber/RearrangeNumber-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s397082061.778775
-e397082062.352669
-r1
-xProcessPCH
-x/var/folders/cp/v3lbpv3555z45xq56nkzz8lc0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/RearrangeNumber-Prefix-fzjcsiocqsfqlvfperlecjwdqlvo/RearrangeNumber-Prefix.pch.pth
-xRearrangeNumber/RearrangeNumber-Prefix.pch
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection53"Precompile RearrangeNumber/RearrangeNumber-Prefix.pch5b96c7cdfdaab741^c7485acefdaab741^---0#0#0#-19%DVTDocumentLocation2@140"file://localhost/Users/QA/source/sch-qa-core/automation/tools/R180NG-Mobile/setup/RearrangeNumber/RearrangeNumber/RearrangeNumber-Prefix.pch0000000000000000^4112"ProcessPCH /var/folders/cp/v3lbpv3555z45xq56nkzz8lc0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/RearrangeNumber-Prefix-fzjcsiocqsfqlvfperlecjwdqlvo/RearrangeNumber-Prefix.pch.pth RearrangeNumber/RearrangeNumber-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/QA/source/sch-qa-core/automation/tools/R180NG-Mobile/setup/RearrangeNumber    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c-header -arch i386 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=6.0 -iquote /Users/QA/source/sch-qa-core/automation/tools/R180NG-Mobile/setup/RearrangeNumber/build/RearrangeNumber.build/Debug-iphonesimulator/RearrangeNumber.build/RearrangeNumber-generated-files.hmap -I/Users/QA/source/sch-qa-core/automation/tools/R180NG-Mobile/setup/RearrangeNumber/build/RearrangeNumber.build/Debug-iphonesimulator/RearrangeNumber.build/RearrangeNumber-own-target-headers.hmap -I/Users/QA/source/sch-qa-core/automation/tools/R180NG-Mobile/setup/RearrangeNumber/build/RearrangeNumber.build/Debug-iphonesimulator/RearrangeNumber.build/RearrangeNumber-all-target-headers.hmap -iquote /Users/QA/source/sch-qa-core/automation/tools/R180NG-Mobile/setup/RearrangeNumber/build/RearrangeNumber.build/Debug-iphonesimulator/RearrangeNumber.build/RearrangeNumber-project-headers.hmap -I/Users/QA/source/sch-qa-core/automation/tools/R180NG-Mobile/setup/RearrangeNumber/build/Debug-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/QA/source/sch-qa-core/automation/tools/R180NG-Mobile/setup/RearrangeNumber/build/RearrangeNumber.build/Debug-iphonesimulator/RearrangeNumber.build/DerivedSources/i386 -I/Users/QA/source/sch-qa-core/automation/tools/R180NG-Mobile/setup/RearrangeNumber/build/RearrangeNumber.build/Debug-iphonesimulator/RearrangeNumber.build/DerivedSources -F/Users/QA/source/sch-qa-core/automation/tools/R180NG-Mobile/setup/RearrangeNumber/build/Debug-iphonesimulator --serialize-diagnostics /var/folders/cp/v3lbpv3555z45xq56nkzz8lc0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/RearrangeNumber-Prefix-fzjcsiocqsfqlvfperlecjwdqlvo/RearrangeNumber-Prefix.pch.dia -c /Users/QA/source/sch-qa-core/automation/tools/R180NG-Mobile/setup/RearrangeNumber/RearrangeNumber/RearrangeNumber-Prefix.pch -o /var/folders/cp/v3lbpv3555z45xq56nkzz8lc0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/RearrangeNumber-Prefix-fzjcsiocqsfqlvfperlecjwdqlvo/RearrangeNumber-Prefix.pch.pth -MMD -MT dependencies -MF /var/folders/cp/v3lbpv3555z45xq56nkzz8lc0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/RearrangeNumber-Prefix-fzjcsiocqsfqlvfperlecjwdqlvo/RearrangeNumber-Prefix.pch.d36"2CB5528F-055F-4A10-84B5-4323B2ABF23C-
-
-CTouch /Users/QA/source/sch-qa-core/automation/tools/R180NG-Mobile/setup/RearrangeNumber/build/Debug-iphonesimulator/RearrangeNumber.app
-s397082064.518897
-e397082064.546059
-r1
-xTouch
-x/Users/QA/source/sch-qa-core/automation/tools/R180NG-Mobile/setup/RearrangeNumber/build/Debug-iphonesimulator/RearrangeNumber.app
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection135"Touch /Users/QA/source/sch-qa-core/automation/tools/R180NG-Mobile/setup/RearrangeNumber/build/Debug-iphonesimulator/RearrangeNumber.app89eb84d0fdaab741^75ca8bd0fdaab741^---0#0#0#--490"Touch build/Debug-iphonesimulator/RearrangeNumber.app    cd /Users/QA/source/sch-qa-core/automation/tools/R180NG-Mobile/setup/RearrangeNumber    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/QA/source/sch-qa-core/automation/tools/R180NG-Mobile/setup/RearrangeNumber/build/Debug-iphonesimulator/RearrangeNumber.app36"448A25BC-A16B-46C5-8AFE-3DDC2D115B3A-
-
